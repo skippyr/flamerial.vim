@@ -1,7 +1,8 @@
 <h1>Flamerial (Vim/Neovim)</h1>
-	<p>The port of the Flamerial theme for Vim and Neovim.</p>
-	<p>You can find more ports and information about the Flamerial theme in its <a href="https://github.com/skippyr/flamerial">main repository</a>.</p>
-	<img src="./images/preview.png"/>
+	<h2>Starting Point</h2>
+		<p>The port of the Flamerial theme for Vim and Neovim.</p>
+		<p>You can find more ports and information about the Flamerial theme in its <a href="https://github.com/skippyr/flamerial">main repository</a>.</p>
+		<img src="./images/preview.png"/>
 	<h2>Installation And Usage</h2>
 		<h3>Using A Package Manager (recommended)</h3>
 			<p>The easiest way of installating and managing themes and plugins for Vim and Neovim is by using a package manager. To install this theme, you basically need to use a rule that points to this repository when adjusting your plugins.</p>
