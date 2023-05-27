@@ -1,7 +1,7 @@
 " -----------------------------------------------------------------------------
 " File: flamerial.vim
 " Author: Sherman Rofeman <skippyr.developer@gmail.com>
-" Source: https://github.com/skippyr/flamerial
+" Source: https://github.com/skippyr/flamerial.nvim
 " -----------------------------------------------------------------------------
 
 set termguicolors
