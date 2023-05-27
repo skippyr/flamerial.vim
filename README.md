@@ -5,7 +5,7 @@
 	<h2>Installation And Usage</h2>
 		<h3>Using A Package Manager (recommended)</h3>
 			<p>The easiest way of installating and managing themes and plugins for Vim and Neovim is by using a package manager. To install this theme, you basically need to use a rule that points to this repository when adjusting your plugins.</p>
-			<p>Here are instructions for popular package managers. If you use another one not listed, you can refer to its documentation, but their usage might not be very different.</p>
+			<p>Here are instructions for popular package managers. If you use another one not listed, you can refer to its documentation, but its usage might not be very different.</p>
 			<h4><a href="https://github.com/junegunn/vim-plug">vim-plug</a></h4>
 				<ul>
 					<li>Add this <code>Plug</code> rule to your plugins configuration:</li>
@@ -26,7 +26,7 @@
 				</ul>
 		<h3>Manually</h3>
 			<p>By manually installing this theme, you will need to manually organize the file structure and it will not be possible to easily update it.</p>
-			<p>For any installation step, follow this instructions first:</p>
+			<p>For any installation step, follow these instructions first:</p>
 			<ul>
 				<li>Download this repository.</li>
 				<p>If you have <code>git</code> installed, you can download it by using the following command:</p>

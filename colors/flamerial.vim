@@ -7,6 +7,7 @@
 " Settings
 
 set termguicolors
+let g:airline_theme="flamerial"
 
 " Palette Highlights
 
