@@ -66,8 +66,8 @@ cp -r {colors,autoload} ~/.config/nvim
 					<li>Reload your Neovim session.</li>
 				</ul>
 	<h2>Issues And Contributions</h2>
-		<p>Learn how to report issues, questions and ideas and how to contribute to this project by reading its <a href="https://skippyr.github.io/materials/pages/contributions_guideline.html">contributions guideline</a>.</p>
+		<p>Learn how to report issues, questions and ideas and how to contribute to this project by reading its <a href="https://skippyr.github.io/materials/pages/contributions_guidelines.html">contributions guidelines</a>.</p>
 	<h2>License</h2>
-		<p>Flamerial is released under the MIT License. You can refer to the license as the file <code><a href="https://github.com/skippyr/flamerial.nvim/blob/main/LICENSE">LICENSE</a></code> in the root directory of this repository.</p>
+		<p>This project is released under terms of the MIT License. You can refer to the license as the file LICENSE in the repository's root directory.</p>
 		<p>Copyright (c) 2023, Sherman Rofeman. MIT License.</p>
 
