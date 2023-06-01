@@ -101,6 +101,7 @@ hi! link Identifier FlamerialGreenForeground
 hi! link htmlEndTag htmlTag
 hi! link javascriptFunction Statement
 hi! link javascriptValue Number
+hi! link luaFunction Statement
 hi! link rustDerive FlamerialWhiteForeground
 hi! link rustAttribute Function
 
