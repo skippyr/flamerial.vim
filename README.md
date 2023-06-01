@@ -1,7 +1,7 @@
 <h1>Flamerial (Vim/Neovim)</h1>
 	<h2>Starting Point</h2>
-		<p>The port of the Flamerial theme for Vim and Neovim.</p>
-		<p>You can find more ports and information about the Flamerial theme in its <a href="https://github.com/skippyr/flamerial">main repository</a>.</p>
+		<p>The port of the Flamerial theme for Vim and Neovim. You can find more ports and information about the Flamerial theme in its <a href="https://github.com/skippyr/flamerial">main repository</a>.</p>
+		<p>Here is a preview of Flamerial on Neovim on a HTML code.</p>
 		<img src="./images/preview.png"/>
 	<h2>Installation And Usage</h2>
 		<h3>Using A Package Manager (recommended)</h3>
