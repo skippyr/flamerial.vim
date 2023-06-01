@@ -49,7 +49,7 @@ hi! link Special FlamerialMagentaForeground
 hi! link PreProc FlamerialMagentaForeground
 hi! link Identifier FlamerialCyanForeground
 hi! link Type FlamerialCyanForeground
-hi! link Number FlamerialGreenForeground
+hi! link Number FlamerialRedForeground
 hi! link Constant FlamerialMagentaForeground
 hi! link String FlamerialRedForeground
 hi! link MatchParen FlamerialWhiteForeground
@@ -77,7 +77,7 @@ hi! link MoreMsg FlamerialGreenForeground
 hi! link CursorLine FlamerialBlackVariant0Background
 hi! link CursorLineNr FlamerialBlackVariant0Background
 hi! link CursorColumn FlamerialBlackVariant0Background
-hi! link Delimiter FlamerialWhiteForeground
+hi! link Delimiter FlamerialCyanForeground
 hi! link Directory FlamerialRedForeground
 hi! link Todo Comment
 hi! link SpecialComment Comment
@@ -98,9 +98,9 @@ hi! link Identifier FlamerialGreenForeground
 
 " Language Specific Highlights
 
-hi! link htmlTag FlamerialCyanForeground
 hi! link htmlEndTag htmlTag
-hi! link htmlTagName FlamerialYellowForeground
+hi! link javascriptFunction Statement
+hi! link javascriptValue Number
 hi! link rustDerive FlamerialWhiteForeground
 hi! link rustAttribute Function
 
