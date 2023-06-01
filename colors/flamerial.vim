@@ -51,7 +51,7 @@ hi! link Identifier FlamerialCyanForeground
 hi! link Type FlamerialCyanForeground
 hi! link Number FlamerialGreenForeground
 hi! link Constant FlamerialMagentaForeground
-hi! link String FlamerialGreenForeground
+hi! link String FlamerialRedForeground
 hi! link MatchParen FlamerialWhiteForeground
 hi! link Search FlamerialYellowBackground
 hi! link ErrorMsg FlamerialRedBackground
@@ -67,7 +67,7 @@ hi! link DiffChange FlamerialWhiteForeground
 hi! link DiffDelete FlamerialWhiteForeground
 hi! link DiffText FlamerialWhiteForeground
 hi! link ColorColumn FlamerialLightBlackBackground
-hi! link Statement FlamerialMagentaForeground
+hi! link Statement FlamerialYellowForeground
 hi! link Pmenu FlamerialBlackVariant0Background
 hi! link PmenuSel FlamerialRedBackground
 hi! link PmenuSbar FlamerialYellowBackground
@@ -92,18 +92,15 @@ hi! link DiagnosticWarn FlamerialBlackVariant0Background
 hi! link DiagnosticInfo FlamerialBlackVariant0Background
 hi! link DiagnosticOk FlamerialBlackVariant0Background
 hi! link StatusLine FlamerialBlackVariant0Background
-hi! link Function FlamerialYellowForeground
+hi! link Function FlamerialCyanForeground
 hi! link Operator FlamerialWhiteForeground
-hi! link Identifier FlamerialRedForeground
+hi! link Identifier FlamerialGreenForeground
 
 " Language Specific Highlights
 
-hi! link htmlTag FlamerialWhiteForeground
-hi! link htmlEndTag FlamerialWhiteForeground
-hi! link htmlTagName Identifier
-hi! link javascriptBraces FlamerialWhiteForeground
-hi! link typescriptBraces FlamerialWhiteForeground
-hi! link cssBraces FlamerialWhiteForeground
+hi! link htmlTag FlamerialCyanForeground
+hi! link htmlEndTag htmlTag
+hi! link htmlTagName FlamerialYellowForeground
 hi! link rustDerive FlamerialWhiteForeground
 hi! link rustAttribute Function
 
