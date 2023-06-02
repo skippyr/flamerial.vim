@@ -23,21 +23,21 @@ hi FlamerialCyanForeground ctermfg=6 guifg=#852d10
 hi FlamerialWhiteForeground ctermfg=7 guifg=#f5cc7a
 hi FlamerialLightBlackForeground ctermfg=4 guifg=#916634
 
-hi FlamerialRedBackground guibg=#a62126 guifg=#f5cc7a
-hi FlamerialYellowBackground guibg=#a86419 guifg=#f5cc7a
-hi FlamerialBlueBackground guibg=#8c6f46 guifg=#f5cc7a
-hi FlamerialMagentaBackground guibg=#754636 guifg=#f5cc7a
-hi FlamerialCyanBackground guibg=#852d10 guifg=#f5cc7a
-hi FlamerialWhiteBackground guibg=#f5cc7a guifg=#0d0600
-hi FlamerialLightBlackBackground guibg=#916634 guifg=#f5cc7a
-hi FlamerialBlackVariant0Background guibg=#261200 guifg=#f5cc7a
-hi FlamerialNormalInverted guibg=#f5cc7a guifg=#0d0600
+hi FlamerialRedBackground ctermbg=1 ctermfg=7 guibg=#a62126 guifg=#f5cc7a
+hi FlamerialYellowBackground ctermbg=3 ctermfg=7 guibg=#a86419 guifg=#f5cc7a
+hi FlamerialBlueBackground ctermbg=4 ctermfg=7 guibg=#8c6f46 guifg=#f5cc7a
+hi FlamerialMagentaBackground ctermbg=5 ctermfg=7 guibg=#754636 guifg=#f5cc7a
+hi FlamerialCyanBackground ctermbg=6 ctermfg=7 guibg=#852d10 guifg=#f5cc7a
+hi FlamerialWhiteBackground ctermbg=7 ctermfg=0 guibg=#f5cc7a guifg=#0d0600
+hi FlamerialLightBlackBackground ctermbg=4 ctermfg=7 guibg=#916634 guifg=#f5cc7a
+hi FlamerialBlackVariant0Background ctermbg=0 ctermfg=7 guibg=#261200 guifg=#f5cc7a
+hi FlamerialNormalInverted ctermbg=7 ctermfg=0 guibg=#f5cc7a guifg=#0d0600
 
 " Basic Highlights
 
-hi Normal guibg=#0d0600 guifg=#f5cc7a
-hi Underlined gui=underline guifg=#a62126
-hi DiagnosticUnderlineHint gui=underline guisp=#f5cc7a
+hi Normal ctermbg=0 ctermfg=7 guibg=#0d0600 guifg=#f5cc7a
+hi Underlined cterm=underline ctermfg=1 gui=underline guifg=#a62126
+hi DiagnosticUnderlineHint cterm=underline gui=underline guisp=#f5cc7a
 hi! link DiagnosticUnderlineWarn DiagnosticUnderlineHint
 hi! link DiagnosticUnderlineInfo DiagnosticUnderlineHint
 hi! link DiagnosticUnderlineError DiagnosticUnderlineHint
