@@ -6,19 +6,22 @@
 
 " Settings
 
-set termguicolors
+if &t_Co != 8
+	set termguicolors
+endif
+
 let g:airline_theme="flamerial"
 
 " Palette Highlights
 
-hi FlamerialRedForeground guifg=#a62126
-hi FlamerialYellowForeground guifg=#a86419
-hi FlamerialBlueForeground guifg=#8c6f46
-hi FlamerialGreenForeground guifg=#755717
-hi FlamerialMagentaForeground guifg=#754636
-hi FlamerialCyanForeground guifg=#852d10
-hi FlamerialWhiteForeground guifg=#f5cc7a
-hi FlamerialLightBlackForeground guifg=#916634
+hi FlamerialRedForeground ctermfg=1 guifg=#a62126
+hi FlamerialYellowForeground ctermfg=3 guifg=#a86419
+hi FlamerialBlueForeground ctermfg=4 guifg=#8c6f46
+hi FlamerialGreenForeground ctermfg=2 guifg=#755717
+hi FlamerialMagentaForeground ctermfg=5 guifg=#754636
+hi FlamerialCyanForeground ctermfg=6 guifg=#852d10
+hi FlamerialWhiteForeground ctermfg=7 guifg=#f5cc7a
+hi FlamerialLightBlackForeground ctermfg=4 guifg=#916634
 
 hi FlamerialRedBackground guibg=#a62126 guifg=#f5cc7a
 hi FlamerialYellowBackground guibg=#a86419 guifg=#f5cc7a
