@@ -14,29 +14,29 @@ let g:airline_theme="flamerial"
 
 " Palette Highlights
 
-hi FlamerialRedForeground ctermfg=1 guifg=#a62126
-hi FlamerialYellowForeground ctermfg=3 guifg=#a86419
-hi FlamerialBlueForeground ctermfg=4 guifg=#8c6f46
-hi FlamerialGreenForeground ctermfg=2 guifg=#755717
-hi FlamerialMagentaForeground ctermfg=5 guifg=#754636
-hi FlamerialCyanForeground ctermfg=6 guifg=#852d10
+hi FlamerialRedForeground ctermfg=1 guifg=#b3001b
+hi FlamerialYellowForeground ctermfg=3 guifg=#bf5b04
+hi FlamerialBlueForeground ctermfg=4 guifg=#335c58
+hi FlamerialGreenForeground ctermfg=2 guifg=#9c661f
+hi FlamerialMagentaForeground ctermfg=5 guifg=#744d34
+hi FlamerialCyanForeground ctermfg=6 guifg=#9c3513
 hi FlamerialWhiteForeground ctermfg=7 guifg=#f5cc7a
 hi FlamerialLightBlackForeground ctermfg=4 guifg=#916634
 
-hi FlamerialRedBackground ctermbg=1 ctermfg=7 guibg=#a62126 guifg=#f5cc7a
-hi FlamerialYellowBackground ctermbg=3 ctermfg=7 guibg=#a86419 guifg=#f5cc7a
-hi FlamerialBlueBackground ctermbg=4 ctermfg=7 guibg=#8c6f46 guifg=#f5cc7a
-hi FlamerialMagentaBackground ctermbg=5 ctermfg=7 guibg=#754636 guifg=#f5cc7a
-hi FlamerialCyanBackground ctermbg=6 ctermfg=7 guibg=#852d10 guifg=#f5cc7a
-hi FlamerialWhiteBackground ctermbg=7 ctermfg=0 guibg=#f5cc7a guifg=#0d0600
+hi FlamerialRedBackground ctermbg=1 ctermfg=7 guibg=#b3001b guifg=#f5cc7a
+hi FlamerialYellowBackground ctermbg=3 ctermfg=7 guibg=#bf5b04 guifg=#f5cc7a
+hi FlamerialBlueBackground ctermbg=4 ctermfg=7 guibg=#335c58 guifg=#f5cc7a
+hi FlamerialMagentaBackground ctermbg=5 ctermfg=7 guibg=#744d34 guifg=#f5cc7a
+hi FlamerialCyanBackground ctermbg=6 ctermfg=7 guibg=#9c3513 guifg=#f5cc7a
+hi FlamerialWhiteBackground ctermbg=7 ctermfg=0 guibg=#f5cc7a guifg=#170e05
 hi FlamerialLightBlackBackground ctermbg=4 ctermfg=7 guibg=#916634 guifg=#f5cc7a
 hi FlamerialBlackVariant0Background ctermbg=0 ctermfg=7 guibg=#261200 guifg=#f5cc7a
-hi FlamerialNormalInverted ctermbg=7 ctermfg=0 guibg=#f5cc7a guifg=#0d0600
+hi FlamerialNormalInverted ctermbg=7 ctermfg=0 guibg=#f5cc7a guifg=#170e05
 
 " Basic Highlights
 
-hi Normal ctermbg=0 ctermfg=7 guibg=#0d0600 guifg=#f5cc7a
-hi Underlined cterm=underline ctermfg=1 gui=underline guifg=#a62126
+hi Normal ctermbg=0 ctermfg=7 guibg=#170e05 guifg=#f5cc7a
+hi Underlined cterm=underline ctermfg=1 gui=underline guifg=#b3001b
 hi DiagnosticUnderlineHint cterm=underline gui=underline guisp=#f5cc7a
 hi! link DiagnosticUnderlineWarn DiagnosticUnderlineHint
 hi! link DiagnosticUnderlineInfo DiagnosticUnderlineHint
@@ -80,7 +80,7 @@ hi! link MoreMsg FlamerialGreenForeground
 hi! link CursorLine FlamerialBlackVariant0Background
 hi! link CursorLineNr FlamerialBlackVariant0Background
 hi! link CursorColumn FlamerialBlackVariant0Background
-hi! link Delimiter FlamerialCyanForeground
+hi! link Delimiter FlamerialBlueForeground
 hi! link Directory FlamerialRedForeground
 hi! link Todo Comment
 hi! link SpecialComment Comment
@@ -95,7 +95,7 @@ hi! link DiagnosticWarn FlamerialBlackVariant0Background
 hi! link DiagnosticInfo FlamerialBlackVariant0Background
 hi! link DiagnosticOk FlamerialBlackVariant0Background
 hi! link StatusLine FlamerialBlackVariant0Background
-hi! link Function FlamerialCyanForeground
+hi! link Function FlamerialBlueForeground
 hi! link Operator FlamerialWhiteForeground
 hi! link Identifier FlamerialGreenForeground
 
