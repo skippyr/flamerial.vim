@@ -77,6 +77,16 @@ cp -r {colors,autoload} ~/.config/nvim
 						</ul>
 					<li>Reload your Neovim session.</li>
 				</ul>
+	<h2>Customization</h2>
+		<p>By default, the Flamerial theme will try to automatically set the value of the <code>termguicolors</code> option based on your terminal emulator's color support. This works for the majority of terminal emulators, and will prevent of having you to set it manually to enable full color support.</p>
+		<p>However, if this feature does not work as intended for your terminal emulator, you can disable it by manually setting the global variable <code>g:flamerial_auto_detect_color_support</code> with value <code>0</code> before applying the colorscheme using the <code>colorscheme</code> rule.</p>
+		<ul>
+			<li>Using Vim Script:</li>
+				<pre><code>let g:flamerial_auto_detect_color_support=0</code></pre>
+			<li>Using Lua:</li>
+				<pre><code>vim.g.flamerial_auto_detect_color_support = 0</code></pre>
+		</ul>
+		<p>After disabling it, you can manually configure your color support by setting the option <code>termguicolors</code> or <code>notermguicolors</code>.</p>
 	<h2>Issues And Contributions</h2>
 		<p>Learn how to report issues, questions and ideas and how to contribute to this project by reading its <a href="https://skippyr.github.io/materials/pages/contributions_guidelines.html">contributions guidelines</a>.</p>
 	<h2>License</h2>

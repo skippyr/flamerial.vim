@@ -1,6 +1,9 @@
 " Startup Settings
 hi clear
-if &t_Co != 8
+if !exists("g:flamerial_auto_detect_color_support")
+	let g:flamerial_auto_detect_color_support=1
+endif
+if g:flamerial_auto_detect_color_support == 1 && &t_Co != 8
 	set termguicolors
 endif
 let g:airline_theme="flamerial"
