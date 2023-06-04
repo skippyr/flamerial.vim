@@ -1,9 +1,9 @@
 " Startup Settings
+hi clear
 if &t_Co != 8
 	set termguicolors
 endif
 let g:airline_theme="flamerial"
-hi clear
 
 " Foreground Highlights
 hi FlamerialRedForeground ctermfg=1 guifg=#b3001b
@@ -115,9 +115,9 @@ hi! link cssBraces Delimiter
 hi! link cssProp Identifier
 hi! link cssAtRule Function
 hi! link cssAttrComma FlamerialWhiteForeground
-hi! link cssClassName Structure
+hi! link cssClassName Statement
 hi! link cssClassNameDot cssClassName
-hi! link cssTagName Structure
+hi! link cssTagName cssClassName
 
 " Lua Highlights
 hi! link luaFunction Statement
