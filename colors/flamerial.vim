@@ -47,7 +47,7 @@ hi! link Type FlamerialMagentaForeground
 hi! link Number FlamerialRedForeground
 hi! link Constant FlamerialRedForeground
 hi! link String FlamerialRedForeground
-hi! link MatchParen FlamerialWhiteForeground
+hi! link MatchParen FlamerialMagentaBackground
 hi! link Search FlamerialYellowBackground
 hi! link ErrorMsg FlamerialRedBackground
 hi! link Error ErrorMsg

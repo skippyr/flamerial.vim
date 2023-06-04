@@ -1,8 +1,9 @@
 <h1>Flamerial (Vim/Neovim)</h1>
 	<h2>Starting Point</h2>
 		<p>The port of the Flamerial theme for Vim and Neovim. You can find more ports and information about the Flamerial theme in its <a href="https://github.com/skippyr/flamerial">main repository</a>.</p>
-		<p>Here is a preview of Flamerial on Neovim on a HTML code.</p>
+		<p>Here is a preview that you can check out.</p>
 		<img src="./images/preview.png"/>
+		<p>In the preview, Flamerial was used on Neovim with the <a href="https://github.com/vim-airline/vim-airline">vim-airline</a> plugin and some custom settings to view hidden characters. Font used is <a href="https://github.com/be5invis/Iosevka">Iosevka</a> (stylistic set <code>ss08</code>).</p>
 	<h2>Installation And Usage</h2>
 		<h3>Using A Package Manager (recommended)</h3>
 			<p>The easiest way of installating and managing themes and plugins for Vim and Neovim is by using a package manager. To install this theme, you basically need to use a rule that points to this repository when adjusting your plugins.</p>
