@@ -107,6 +107,12 @@ hi! link typescriptBraces Delimiter
 
 " CSS Highlights
 hi! link cssBraces Delimiter
+hi! link cssProp Identifier
+hi! link cssAtRule Function
+hi! link cssAttrComma FlamerialWhiteForeground
+hi! link cssClassName Structure
+hi! link cssClassNameDot cssClassName
+hi! link cssTagName Structure
 
 " Lua Highlights
 hi! link luaFunction Statement
