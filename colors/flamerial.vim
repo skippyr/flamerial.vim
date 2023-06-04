@@ -21,7 +21,7 @@ hi FlamerialGreenForeground ctermfg=2 guifg=#9c661f
 hi FlamerialMagentaForeground ctermfg=5 guifg=#744d34
 hi FlamerialCyanForeground ctermfg=6 guifg=#9c3513
 hi FlamerialWhiteForeground ctermfg=7 guifg=#f5cc7a
-hi FlamerialLightBlackForeground ctermfg=4 guifg=#916634
+hi FlamerialLightBlackForeground ctermfg=2 guifg=#916634
 
 hi FlamerialRedBackground ctermbg=1 ctermfg=7 guibg=#b3001b guifg=#f5cc7a
 hi FlamerialYellowBackground ctermbg=3 ctermfg=7 guibg=#bf5b04 guifg=#f5cc7a
@@ -29,7 +29,7 @@ hi FlamerialBlueBackground ctermbg=4 ctermfg=7 guibg=#335c58 guifg=#f5cc7a
 hi FlamerialMagentaBackground ctermbg=5 ctermfg=7 guibg=#744d34 guifg=#f5cc7a
 hi FlamerialCyanBackground ctermbg=6 ctermfg=7 guibg=#9c3513 guifg=#f5cc7a
 hi FlamerialWhiteBackground ctermbg=7 ctermfg=0 guibg=#f5cc7a guifg=#170e05
-hi FlamerialLightBlackBackground ctermbg=4 ctermfg=7 guibg=#916634 guifg=#f5cc7a
+hi FlamerialLightBlackBackground ctermbg=2 ctermfg=7 guibg=#916634 guifg=#f5cc7a
 hi FlamerialBlackVariant0Background ctermbg=0 ctermfg=7 guibg=#261200 guifg=#f5cc7a
 hi FlamerialNormalInverted ctermbg=7 ctermfg=0 guibg=#f5cc7a guifg=#170e05
 
@@ -47,10 +47,10 @@ hi! link SpecialKey FlamerialLightBlackForeground
 hi! link LineNr FlamerialYellowForeground
 hi! link Comment FlamerialLightBlackForeground
 hi! link NonText Comment
-hi! link Title FlamerialMagentaForeground
+hi! link Title FlamerialWhiteForeground
 hi! link Special FlamerialMagentaForeground
 hi! link PreProc FlamerialMagentaForeground
-hi! link Identifier FlamerialCyanForeground
+hi! link Identifier FlamerialYellowForeground
 hi! link Type FlamerialCyanForeground
 hi! link Number FlamerialRedForeground
 hi! link Constant FlamerialMagentaForeground
@@ -70,7 +70,7 @@ hi! link DiffChange FlamerialWhiteForeground
 hi! link DiffDelete FlamerialWhiteForeground
 hi! link DiffText FlamerialWhiteForeground
 hi! link ColorColumn FlamerialLightBlackBackground
-hi! link Statement FlamerialYellowForeground
+hi! link Statement FlamerialGreenForeground
 hi! link Pmenu FlamerialBlackVariant0Background
 hi! link PmenuSel FlamerialRedBackground
 hi! link PmenuSbar FlamerialYellowBackground
@@ -80,7 +80,7 @@ hi! link MoreMsg FlamerialGreenForeground
 hi! link CursorLine FlamerialBlackVariant0Background
 hi! link CursorLineNr FlamerialBlackVariant0Background
 hi! link CursorColumn FlamerialBlackVariant0Background
-hi! link Delimiter FlamerialBlueForeground
+hi! link Delimiter FlamerialWhiteForeground
 hi! link Directory FlamerialRedForeground
 hi! link Todo Comment
 hi! link SpecialComment Comment
@@ -95,15 +95,18 @@ hi! link DiagnosticWarn FlamerialBlackVariant0Background
 hi! link DiagnosticInfo FlamerialBlackVariant0Background
 hi! link DiagnosticOk FlamerialBlackVariant0Background
 hi! link StatusLine FlamerialBlackVariant0Background
-hi! link Function FlamerialBlueForeground
+hi! link Function Identifier
 hi! link Operator FlamerialWhiteForeground
-hi! link Identifier FlamerialGreenForeground
 
 " Language Specific Highlights
 
+hi! link htmlTag Delimiter
 hi! link htmlEndTag htmlTag
+hi! link htmlArg Identifier
 hi! link javascriptFunction Statement
 hi! link javascriptValue Number
+hi! link javascriptBraces Delimiter
+hi! link cssBraces Delimiter
 hi! link luaFunction Statement
 hi! link rustDerive FlamerialWhiteForeground
 hi! link rustAttribute Function
