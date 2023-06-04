@@ -4,16 +4,13 @@
 " Source: https://github.com/skippyr/flamerial.nvim
 " -----------------------------------------------------------------------------
 
-" Settings
-
+" Startup Settings
 if &t_Co != 8
 	set termguicolors
 endif
-
 let g:airline_theme="flamerial"
 
-" Palette Highlights
-
+" Foreground Highlights
 hi FlamerialRedForeground ctermfg=1 guifg=#b3001b
 hi FlamerialYellowForeground ctermfg=3 guifg=#bf5b04
 hi FlamerialBlueForeground ctermfg=4 guifg=#335c58
@@ -23,6 +20,7 @@ hi FlamerialCyanForeground ctermfg=6 guifg=#9c3513
 hi FlamerialWhiteForeground ctermfg=7 guifg=#f5cc7a
 hi FlamerialLightBlackForeground ctermfg=2 guifg=#916634
 
+" Background Highlights
 hi FlamerialRedBackground ctermbg=1 ctermfg=7 guibg=#b3001b guifg=#f5cc7a
 hi FlamerialYellowBackground ctermbg=3 ctermfg=7 guibg=#bf5b04 guifg=#f5cc7a
 hi FlamerialBlueBackground ctermbg=4 ctermfg=7 guibg=#335c58 guifg=#f5cc7a
@@ -33,8 +31,7 @@ hi FlamerialLightBlackBackground ctermbg=2 ctermfg=7 guibg=#916634 guifg=#f5cc7a
 hi FlamerialBlackVariant0Background ctermbg=0 ctermfg=7 guibg=#331f0b guifg=#f5cc7a
 hi FlamerialNormalInverted ctermbg=7 ctermfg=0 guibg=#f5cc7a guifg=#170e05
 
-" Basic Highlights
-
+" Core Highlights
 hi Normal ctermbg=0 ctermfg=7 guibg=#170e05 guifg=#f5cc7a
 hi DiagnosticUnderlineHint cterm=underline gui=underline guisp=#f5cc7a
 hi! link Underlined FlamerialWhiteForeground
@@ -51,7 +48,7 @@ hi! link Title FlamerialWhiteForeground
 hi! link Special FlamerialMagentaForeground
 hi! link PreProc FlamerialMagentaForeground
 hi! link Identifier FlamerialYellowForeground
-hi! link Type FlamerialRedForeground
+hi! link Type FlamerialMagentaForeground
 hi! link Number FlamerialRedForeground
 hi! link Constant FlamerialRedForeground
 hi! link String FlamerialRedForeground
@@ -95,21 +92,32 @@ hi! link DiagnosticWarn FlamerialBlackVariant0Background
 hi! link DiagnosticInfo FlamerialBlackVariant0Background
 hi! link DiagnosticOk FlamerialBlackVariant0Background
 hi! link StatusLine FlamerialBlackVariant0Background
-hi! link Function Identifier
+hi! link Function FlamerialBlueForeground
 hi! link Operator FlamerialWhiteForeground
 hi! link Structure FlamerialMagentaForeground
 
-" Language Specific Highlights
-
+" HTML Highlights
 hi! link htmlTag Delimiter
 hi! link htmlEndTag htmlTag
 hi! link htmlArg Identifier
+
+" Javascript Highlights
 hi! link javascriptFunction Statement
 hi! link javascriptValue Number
 hi! link javascriptBraces Delimiter
+hi! link javascriptIdentifier Statement
+
+" Typescript Highlights
 hi! link typescriptBraces Delimiter
+
+" CSS Highlights
 hi! link cssBraces Delimiter
+
+" Lua Highlights
 hi! link luaFunction Statement
+hi! link luaTable Delimiter
+
+" Rust Highlights
 hi! link rustDerive FlamerialWhiteForeground
 hi! link rustAttribute Function
 
