@@ -51,9 +51,9 @@ hi! link Title FlamerialWhiteForeground
 hi! link Special FlamerialMagentaForeground
 hi! link PreProc FlamerialMagentaForeground
 hi! link Identifier FlamerialYellowForeground
-hi! link Type FlamerialCyanForeground
+hi! link Type FlamerialRedForeground
 hi! link Number FlamerialRedForeground
-hi! link Constant FlamerialMagentaForeground
+hi! link Constant FlamerialRedForeground
 hi! link String FlamerialRedForeground
 hi! link MatchParen FlamerialWhiteForeground
 hi! link Search FlamerialYellowBackground
@@ -97,7 +97,7 @@ hi! link DiagnosticOk FlamerialBlackVariant0Background
 hi! link StatusLine FlamerialBlackVariant0Background
 hi! link Function Identifier
 hi! link Operator FlamerialWhiteForeground
-hi! link Structure FlamerialBlueForeground
+hi! link Structure FlamerialMagentaForeground
 
 " Language Specific Highlights
 
@@ -107,6 +107,7 @@ hi! link htmlArg Identifier
 hi! link javascriptFunction Statement
 hi! link javascriptValue Number
 hi! link javascriptBraces Delimiter
+hi! link typescriptBraces Delimiter
 hi! link cssBraces Delimiter
 hi! link luaFunction Statement
 hi! link rustDerive FlamerialWhiteForeground
