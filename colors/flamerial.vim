@@ -1,14 +1,9 @@
-" -----------------------------------------------------------------------------
-" File: flamerial.vim
-" Author: Sherman Rofeman <skippyr.developer@gmail.com>
-" Source: https://github.com/skippyr/flamerial.nvim
-" -----------------------------------------------------------------------------
-
 " Startup Settings
 if &t_Co != 8
 	set termguicolors
 endif
 let g:airline_theme="flamerial"
+hi clear
 
 " Foreground Highlights
 hi FlamerialRedForeground ctermfg=1 guifg=#b3001b
