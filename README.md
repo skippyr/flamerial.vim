@@ -13,7 +13,8 @@
 				<img src="./images/preview_rust.png"/>
 		</ul>
 		<p>In the previews, Flamerial was used on Neovim with the <a href="https://github.com/vim-airline/vim-airline">vim-airline</a> and <a href="https://github.com/williamboman/mason-lspconfig.nvim">Mason LSP Config</a> plugins and some custom settings to view hidden characters. Font used is <a href="https://github.com/be5invis/Iosevka">Iosevka</a> (stylistic set <code>ss08</code>).</p>
-		<p>Syntax highlighting might be a bit different in your setup, as it depends on setting up LSP servers.</p>
+		<p>Syntax highlighting might be a bit different in your setup, as it depends on setting up LSP servers and also the plugins you are using.</p>
+		<p>This theme also offers a fallback color palette to be used within terminal emulators that only support the 3bits color palette: by mapping the colors of the editor to your terminal emulator's theme, it will allow you to have a very similar experience as if the <code>termguicolors</code> option was activated, as long as you use a port of the Flamerial theme for your terminal emulator.</p>
 	<h2>Installation And Usage</h2>
 		<h3>Using A Package Manager (recommended)</h3>
 			<p>The easiest way of installating and managing themes and plugins for Vim and Neovim is by using a package manager. To install this theme, you basically need to use a rule that points to this repository when adjusting your plugins.</p>

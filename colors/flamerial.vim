@@ -100,13 +100,12 @@ hi! link htmlArg Identifier
 hi! link javascriptFunction Statement
 hi! link javascriptValue Number
 hi! link javascriptBraces Delimiter
-hi! link javascriptIdentifier Statement
 
 " Typescript Highlights
 hi! link typescriptBraces Delimiter
-hi! link typescriptIdentifier Statement
 hi! link typescriptVariable Statement
 hi! link typescriptOperator Operator
+hi! link typescriptIdentifier Identifier
 hi! link typescriptTypeReference Type
 hi! link typescriptCall FlamerialWhiteForeground
 
