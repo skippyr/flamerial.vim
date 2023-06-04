@@ -89,7 +89,7 @@ hi! link DiagnosticOk FlamerialBlackVariant0Background
 hi! link StatusLine FlamerialBlackVariant0Background
 hi! link Function FlamerialBlueForeground
 hi! link Operator FlamerialWhiteForeground
-hi! link Structure FlamerialMagentaForeground
+hi! link Structure Type
 
 " HTML Highlights
 hi! link htmlTag Delimiter
@@ -104,6 +104,8 @@ hi! link javascriptIdentifier Statement
 
 " Typescript Highlights
 hi! link typescriptBraces Delimiter
+hi! link typescriptIdentifier Statement
+hi! link typescriptMember FlamerialWhiteForeground
 
 " CSS Highlights
 hi! link cssBraces Delimiter
