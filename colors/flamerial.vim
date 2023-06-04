@@ -108,6 +108,8 @@ hi! link typescriptIdentifier Statement
 hi! link typescriptMember FlamerialWhiteForeground
 hi! link typescriptVariable Statement
 hi! link typescriptOperator Operator
+hi! link typescriptTypeReference Type
+hi! link typescriptCall FlamerialWhiteForeground
 
 " CSS Highlights
 hi! link cssBraces Delimiter
