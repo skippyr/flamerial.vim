@@ -1,9 +1,19 @@
 <h1>Flamerial (Vim/Neovim)</h1>
 	<h2>Starting Point</h2>
 		<p>The port of the Flamerial theme for Vim and Neovim. You can find more ports and information about the Flamerial theme in its <a href="https://github.com/skippyr/flamerial">main repository</a>.</p>
-		<p>Here is a preview that you can check out.</p>
-		<img src="./images/preview.png"/>
-		<p>In the preview, Flamerial was used on Neovim with the <a href="https://github.com/vim-airline/vim-airline">vim-airline</a> plugin and some custom settings to view hidden characters. Font used is <a href="https://github.com/be5invis/Iosevka">Iosevka</a> (stylistic set <code>ss08</code>).</p>
+		<p>Here are some previews that you can check out.</p>
+		<ul>
+			<li>HTML</li>
+				<img src="./images/preview_html.png"/>
+			<li>CSS</li>
+				<img src="./images/preview_css.png"/>
+			<li>Ruby</li>
+				<img src="./images/preview_ruby.png"/>
+			<li>Rust</li>
+				<img src="./images/preview_rust.png"/>
+		</ul>
+		<p>In the previews, Flamerial was used on Neovim with the <a href="https://github.com/vim-airline/vim-airline">vim-airline</a> and <a href="https://github.com/williamboman/mason-lspconfig.nvim">Mason LSP Config</a> plugins and some custom settings to view hidden characters. Font used is <a href="https://github.com/be5invis/Iosevka">Iosevka</a> (stylistic set <code>ss08</code>).</p>
+		<p>Syntax highlighting might be a bit different in your setup, as it depends on setting up LSP servers.</p>
 	<h2>Installation And Usage</h2>
 		<h3>Using A Package Manager (recommended)</h3>
 			<p>The easiest way of installating and managing themes and plugins for Vim and Neovim is by using a package manager. To install this theme, you basically need to use a rule that points to this repository when adjusting your plugins.</p>
