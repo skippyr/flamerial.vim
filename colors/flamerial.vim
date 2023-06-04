@@ -36,8 +36,8 @@ hi FlamerialNormalInverted ctermbg=7 ctermfg=0 guibg=#f5cc7a guifg=#170e05
 " Basic Highlights
 
 hi Normal ctermbg=0 ctermfg=7 guibg=#170e05 guifg=#f5cc7a
-hi Underlined cterm=underline ctermfg=1 gui=underline guifg=#b3001b
 hi DiagnosticUnderlineHint cterm=underline gui=underline guisp=#f5cc7a
+hi! link Underlined FlamerialWhiteForeground
 hi! link DiagnosticUnderlineWarn DiagnosticUnderlineHint
 hi! link DiagnosticUnderlineInfo DiagnosticUnderlineHint
 hi! link DiagnosticUnderlineError DiagnosticUnderlineHint
@@ -70,7 +70,7 @@ hi! link DiffChange FlamerialWhiteForeground
 hi! link DiffDelete FlamerialWhiteForeground
 hi! link DiffText FlamerialWhiteForeground
 hi! link ColorColumn FlamerialLightBlackBackground
-hi! link Statement FlamerialGreenForeground
+hi! link Statement FlamerialCyanForeground
 hi! link Pmenu FlamerialBlackVariant0Background
 hi! link PmenuSel FlamerialRedBackground
 hi! link PmenuSbar FlamerialYellowBackground
