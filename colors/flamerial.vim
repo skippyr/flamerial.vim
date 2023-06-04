@@ -105,7 +105,6 @@ hi! link javascriptIdentifier Statement
 " Typescript Highlights
 hi! link typescriptBraces Delimiter
 hi! link typescriptIdentifier Statement
-hi! link typescriptMember FlamerialWhiteForeground
 hi! link typescriptVariable Statement
 hi! link typescriptOperator Operator
 hi! link typescriptTypeReference Type
@@ -137,7 +136,8 @@ hi! link javaTypeDef Identifier
 
 " Vim-Polyglot Plugin Highlights
 " Javascript
-hi! link jsClassFuncName FlamerialWhiteForeground
+hi! link jsClassDefinition Structure
+hi! link jsThis Identifier
 
 " Javascript React (jsx) Highlights
 hi! link jsxTagName Statement
