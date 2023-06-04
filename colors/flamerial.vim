@@ -106,6 +106,8 @@ hi! link javascriptIdentifier Statement
 hi! link typescriptBraces Delimiter
 hi! link typescriptIdentifier Statement
 hi! link typescriptMember FlamerialWhiteForeground
+hi! link typescriptVariable Statement
+hi! link typescriptOperator Operator
 
 " CSS Highlights
 hi! link cssBraces Delimiter
