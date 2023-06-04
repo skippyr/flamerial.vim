@@ -118,6 +118,10 @@ hi! link cssTagName Structure
 hi! link luaFunction Statement
 hi! link luaTable Delimiter
 
+" Ruby Highlights
+hi! link rubyDefine Statement
+hi! link rubyPseudoVariable Identifier
+
 " Rust Highlights
 hi! link rustDerive FlamerialWhiteForeground
 hi! link rustAttribute Function
