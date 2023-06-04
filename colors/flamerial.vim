@@ -97,6 +97,7 @@ hi! link DiagnosticOk FlamerialBlackVariant0Background
 hi! link StatusLine FlamerialBlackVariant0Background
 hi! link Function Identifier
 hi! link Operator FlamerialWhiteForeground
+hi! link Structure FlamerialBlueForeground
 
 " Language Specific Highlights
 
