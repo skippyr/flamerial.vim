@@ -132,3 +132,19 @@ hi! link rubyPseudoVariable Identifier
 hi! link rustDerive FlamerialWhiteForeground
 hi! link rustAttribute Function
 
+" Java Highlights
+hi! link javaTypeDef Identifier
+
+" Vim-Polyglot Plugin Highlights
+" Javascript
+hi! link jsClassFuncName FlamerialWhiteForeground
+
+" Javascript React (jsx) Highlights
+hi! link jsxTagName Statement
+hi! link jsxOpenPunct Delimiter
+hi! link jsxClosePunct jsxOpenPunct
+hi! link jsxCloseString jsxOpenPunct
+hi! link jsxAttribKeyword Identifier
+hi! link jsFunction Statement
+hi! link jsExport Statement
+
