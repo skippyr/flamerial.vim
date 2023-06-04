@@ -30,7 +30,7 @@ hi FlamerialMagentaBackground ctermbg=5 ctermfg=7 guibg=#744d34 guifg=#f5cc7a
 hi FlamerialCyanBackground ctermbg=6 ctermfg=7 guibg=#9c3513 guifg=#f5cc7a
 hi FlamerialWhiteBackground ctermbg=7 ctermfg=0 guibg=#f5cc7a guifg=#170e05
 hi FlamerialLightBlackBackground ctermbg=2 ctermfg=7 guibg=#916634 guifg=#f5cc7a
-hi FlamerialBlackVariant0Background ctermbg=0 ctermfg=7 guibg=#261200 guifg=#f5cc7a
+hi FlamerialBlackVariant0Background ctermbg=0 ctermfg=7 guibg=#331f0b guifg=#f5cc7a
 hi FlamerialNormalInverted ctermbg=7 ctermfg=0 guibg=#f5cc7a guifg=#170e05
 
 " Basic Highlights
@@ -69,10 +69,10 @@ hi! link DiffAdd FlamerialWhiteForeground
 hi! link DiffChange FlamerialWhiteForeground
 hi! link DiffDelete FlamerialWhiteForeground
 hi! link DiffText FlamerialWhiteForeground
-hi! link ColorColumn FlamerialLightBlackBackground
+hi! link ColorColumn FlamerialBlackVariant0Background
 hi! link Statement FlamerialCyanForeground
 hi! link Pmenu FlamerialBlackVariant0Background
-hi! link PmenuSel FlamerialRedBackground
+hi! link PmenuSel FlamerialWhiteBackground
 hi! link PmenuSbar FlamerialYellowBackground
 hi! link PmenuThumb FlamerialWhiteBackground
 hi! link Question FlamerialGreenForeground
@@ -87,7 +87,7 @@ hi! link SpecialComment Comment
 hi! link StorageClass Statement
 hi! link TabLine FlamerialBlackVariant0Background
 hi! link TabLineFill FlamerialBlackVariant0Background
-hi! link TabLineSel FlamerialRedBackground
+hi! link TabLineSel FlamerialWhiteBackground
 hi! link SignColumn FlamerialWhiteForeground
 hi! link DiagnosticHint FlamerialBlackVariant0Background
 hi! link DiagnosticError FlamerialBlackVariant0Background
