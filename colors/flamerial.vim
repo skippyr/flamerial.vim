@@ -20,7 +20,7 @@ hi FlamerialLightBlackForeground ctermfg=2 guifg=#916634
 
 " Background Highlights
 hi FlamerialRedBackground ctermbg=1 ctermfg=7 guibg=#b3001b guifg=#f5cc7a
-hi FlamerialYellowBackground ctermbg=3 ctermfg=7 guibg=#bf5b04 guifg=#f5cc7a
+hi FlamerialYellowBackground ctermbg=3 ctermfg=7 guibg=#bf5b04 guifg=#170e05
 hi FlamerialBlueBackground ctermbg=4 ctermfg=7 guibg=#857256 guifg=#170e05
 hi FlamerialMagentaBackground ctermbg=5 ctermfg=7 guibg=#8a5b3e guifg=#f5cc7a
 hi FlamerialCyanBackground ctermbg=6 ctermfg=7 guibg=#9c3513 guifg=#f5cc7a
@@ -124,6 +124,13 @@ hi! link cssTagName cssClassName
 " Lua Highlights
 hi! link luaFunction Statement
 hi! link luaTable Delimiter
+
+" Sh Highlights
+hi! link shFunctionKey Statement
+hi! link shDerefSimple Number
+hi! link shOption Operator
+hi! link shTestOpr Operator
+hi! link shArithmetic Number
 
 " Ruby Highlights
 hi! link rubyDefine Statement
