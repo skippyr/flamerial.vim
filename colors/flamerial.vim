@@ -27,11 +27,13 @@ hi FlamerialCyanBackground ctermbg=6 ctermfg=7 guibg=#9c3513 guifg=#f5cc7a
 hi FlamerialWhiteBackground ctermbg=7 ctermfg=0 guibg=#f5cc7a guifg=#1f1307
 hi FlamerialLightBlackBackground ctermbg=2 ctermfg=7 guibg=#916634 guifg=#f5cc7a
 hi FlamerialBlackVariant0Background ctermbg=0 ctermfg=7 guibg=#40270f guifg=#f5cc7a
+hi FlamerialNoneBackground ctermbg=NONE guibg=NONE
 hi FlamerialNormalInverted ctermbg=7 ctermfg=0 guibg=#f5cc7a guifg=#1f1307
 
 " Core Highlights
 hi Normal ctermbg=0 ctermfg=7 guibg=#1f1307 guifg=#f5cc7a
 hi DiagnosticUnderlineHint cterm=underline gui=underline guisp=#f5cc7a
+hi! link Conceal FlamerialNoneBackground
 hi! link Underlined FlamerialWhiteForeground
 hi! link DiagnosticUnderlineWarn DiagnosticUnderlineHint
 hi! link DiagnosticUnderlineInfo DiagnosticUnderlineHint
@@ -151,6 +153,12 @@ hi! link rustAttribute Function
 
 " Java Highlights
 hi! link javaTypeDef Identifier
+
+" CocNvim Plugin Highlights
+hi! link CocErrorSign FlamerialRedForeground
+hi! link CocHintSign FlamerialBlueForeground
+hi! link CocSearch FlamerialRedForeground
+hi! link CocMenuSel FlamerialWhiteBackground
 
 " Vim-Polyglot Plugin Highlights
 " Javascript
