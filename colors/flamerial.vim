@@ -132,7 +132,7 @@ hi! link luaTable Delimiter
 
 " Sh Highlights
 hi! link shFunctionKey Statement
-hi! link shDerefSimple Number
+hi! link shDerefSimple String
 hi! link shOption Operator
 hi! link shTestOpr Operator
 hi! link shArithmetic Number
@@ -140,6 +140,9 @@ hi! link shArithmetic Number
 " Ruby Highlights
 hi! link rubyDefine Statement
 hi! link rubyPseudoVariable Identifier
+
+" Vim Highlights
+hi! link vimNotation String
 
 " Rust Highlights
 hi! link rustDerive FlamerialWhiteForeground
