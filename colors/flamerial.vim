@@ -103,6 +103,7 @@ hi! link htmlArg Identifier
 hi! link javaScriptFunction Statement
 hi! link javaScriptValue Number
 hi! link javaScriptBraces Delimiter
+hi! link javaScript FlamerialWhiteForeground
 
 " Typescript Highlights
 hi! link typescriptBraces Delimiter
@@ -112,6 +113,9 @@ hi! link typescriptIdentifier Identifier
 hi! link typescriptTypeReference Type
 hi! link typescriptCall FlamerialWhiteForeground
 
+" PHP Highlights
+hi! link phpVarSelector Identifier
+
 " CSS Highlights
 hi! link cssBraces Delimiter
 hi! link cssProp Identifier
@@ -120,6 +124,7 @@ hi! link cssAttrComma FlamerialWhiteForeground
 hi! link cssClassName Statement
 hi! link cssClassNameDot cssClassName
 hi! link cssTagName cssClassName
+hi! link cssCustomProp Identifier
 
 " Lua Highlights
 hi! link luaFunction Statement
