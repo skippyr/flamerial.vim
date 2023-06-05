@@ -46,7 +46,7 @@ hi! link Title FlamerialWhiteForeground
 hi! link Special FlamerialMagentaForeground
 hi! link PreProc FlamerialMagentaForeground
 hi! link Identifier FlamerialYellowForeground
-hi! link Type FlamerialMagentaForeground
+hi! link Type FlamerialBlueForeground
 hi! link Number FlamerialRedForeground
 hi! link Constant FlamerialRedForeground
 hi! link String FlamerialRedForeground
@@ -90,7 +90,7 @@ hi! link DiagnosticWarn FlamerialBlackVariant0Background
 hi! link DiagnosticInfo FlamerialBlackVariant0Background
 hi! link DiagnosticOk FlamerialBlackVariant0Background
 hi! link StatusLine FlamerialBlackVariant0Background
-hi! link Function FlamerialBlueForeground
+hi! link Function FlamerialMagentaForeground
 hi! link Operator FlamerialWhiteForeground
 hi! link Structure Type
 
@@ -131,6 +131,7 @@ hi! link rubyPseudoVariable Identifier
 
 " Rust Highlights
 hi! link rustDerive FlamerialWhiteForeground
+hi! link rustIdentifier Structure
 hi! link rustAttribute Function
 
 " Java Highlights
