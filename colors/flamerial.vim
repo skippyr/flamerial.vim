@@ -20,17 +20,17 @@ hi FlamerialLightBlackForeground ctermfg=2 guifg=#916634
 
 " Background Highlights
 hi FlamerialRedBackground ctermbg=1 ctermfg=7 guibg=#b3001b guifg=#f5cc7a
-hi FlamerialYellowBackground ctermbg=3 ctermfg=7 guibg=#bf5b04 guifg=#170e05
-hi FlamerialBlueBackground ctermbg=4 ctermfg=7 guibg=#857256 guifg=#170e05
+hi FlamerialYellowBackground ctermbg=3 ctermfg=7 guibg=#bf5b04 guifg=#1f1307
+hi FlamerialBlueBackground ctermbg=4 ctermfg=7 guibg=#857256 guifg=#1f1307
 hi FlamerialMagentaBackground ctermbg=5 ctermfg=7 guibg=#8a5b3e guifg=#f5cc7a
 hi FlamerialCyanBackground ctermbg=6 ctermfg=7 guibg=#9c3513 guifg=#f5cc7a
-hi FlamerialWhiteBackground ctermbg=7 ctermfg=0 guibg=#f5cc7a guifg=#170e05
+hi FlamerialWhiteBackground ctermbg=7 ctermfg=0 guibg=#f5cc7a guifg=#1f1307
 hi FlamerialLightBlackBackground ctermbg=2 ctermfg=7 guibg=#916634 guifg=#f5cc7a
-hi FlamerialBlackVariant0Background ctermbg=0 ctermfg=7 guibg=#331f0b guifg=#f5cc7a
-hi FlamerialNormalInverted ctermbg=7 ctermfg=0 guibg=#f5cc7a guifg=#170e05
+hi FlamerialBlackVariant0Background ctermbg=0 ctermfg=7 guibg=#40270f guifg=#f5cc7a
+hi FlamerialNormalInverted ctermbg=7 ctermfg=0 guibg=#f5cc7a guifg=#1f1307
 
 " Core Highlights
-hi Normal ctermbg=0 ctermfg=7 guibg=#170e05 guifg=#f5cc7a
+hi Normal ctermbg=0 ctermfg=7 guibg=#1f1307 guifg=#f5cc7a
 hi DiagnosticUnderlineHint cterm=underline gui=underline guisp=#f5cc7a
 hi! link Underlined FlamerialWhiteForeground
 hi! link DiagnosticUnderlineWarn DiagnosticUnderlineHint
@@ -100,9 +100,9 @@ hi! link htmlEndTag htmlTag
 hi! link htmlArg Identifier
 
 " Javascript Highlights
-hi! link javascriptFunction Statement
-hi! link javascriptValue Number
-hi! link javascriptBraces Delimiter
+hi! link javaScriptFunction Statement
+hi! link javaScriptValue Number
+hi! link javaScriptBraces Delimiter
 
 " Typescript Highlights
 hi! link typescriptBraces Delimiter
