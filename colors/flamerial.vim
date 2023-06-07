@@ -16,7 +16,6 @@ hi FlamerialGreenForeground ctermfg=2 guifg=#c99510
 hi FlamerialMagentaForeground ctermfg=5 guifg=#b35f6c
 hi FlamerialCyanForeground ctermfg=6 guifg=#d1441d
 hi FlamerialWhiteForeground ctermfg=7 guifg=#ebcba9
-hi FlamerialLightBlackForeground ctermfg=2 guifg=#916634
 
 " Background Highlights
 hi FlamerialRedBackground ctermbg=1 ctermfg=7 guibg=#cc2623 guifg=#ebcba9
@@ -25,8 +24,6 @@ hi FlamerialBlueBackground ctermbg=4 ctermfg=7 guibg=#aaab90 guifg=#332720
 hi FlamerialMagentaBackground ctermbg=5 ctermfg=7 guibg=#b35f6c guifg=#ebcba9
 hi FlamerialCyanBackground ctermbg=6 ctermfg=7 guibg=#d1441d guifg=#ebcba9
 hi FlamerialWhiteBackground ctermbg=7 ctermfg=0 guibg=#ebcba9 guifg=#332720
-hi FlamerialLightBlackBackground ctermbg=2 ctermfg=7 guibg=#916634 guifg=#ebcba9
-hi FlamerialBlackVariant0Background ctermbg=0 ctermfg=7 guibg=#40270f guifg=#ebcba9
 hi FlamerialNoneBackground ctermbg=NONE guibg=NONE
 hi FlamerialNormalInverted ctermbg=7 ctermfg=0 guibg=#ebcba9 guifg=#332720
 
@@ -40,9 +37,9 @@ hi! link DiagnosticUnderlineInfo DiagnosticUnderlineHint
 hi! link DiagnosticUnderlineError DiagnosticUnderlineHint
 hi! link DiagnosticUnderlineOk DiagnosticUnderlineHint
 hi! link Folded FlamerialBlueForeground
-hi! link SpecialKey FlamerialLightBlackForeground
+hi! link SpecialKey FlamerialBlueForeground
 hi! link LineNr FlamerialYellowForeground
-hi! link Comment FlamerialLightBlackForeground
+hi! link Comment FlamerialBlueForeground
 hi! link NonText Comment
 hi! link Title FlamerialWhiteForeground
 hi! link Special FlamerialMagentaForeground
@@ -66,32 +63,32 @@ hi! link DiffAdd FlamerialWhiteForeground
 hi! link DiffChange FlamerialWhiteForeground
 hi! link DiffDelete FlamerialWhiteForeground
 hi! link DiffText FlamerialWhiteForeground
-hi! link ColorColumn FlamerialBlackVariant0Background
+hi! link ColorColumn FlamerialBlueBackground
 hi! link Statement FlamerialCyanForeground
-hi! link Pmenu FlamerialBlackVariant0Background
+hi! link Pmenu Normal
 hi! link PmenuSel FlamerialWhiteBackground
 hi! link PmenuSbar FlamerialYellowBackground
 hi! link PmenuThumb FlamerialWhiteBackground
 hi! link Question FlamerialGreenForeground
 hi! link MoreMsg FlamerialGreenForeground
-hi! link CursorLine FlamerialBlackVariant0Background
-hi! link CursorLineNr FlamerialBlackVariant0Background
-hi! link CursorColumn FlamerialBlackVariant0Background
+hi! link CursorLine Normal
+hi! link CursorLineNr Normal
+hi! link CursorColumn Normal
 hi! link Delimiter FlamerialWhiteForeground
 hi! link Directory FlamerialRedForeground
 hi! link Todo Comment
 hi! link SpecialComment Comment
 hi! link StorageClass Statement
-hi! link TabLine FlamerialBlackVariant0Background
-hi! link TabLineFill FlamerialBlackVariant0Background
+hi! link TabLine Normal
+hi! link TabLineFill Normal
 hi! link TabLineSel FlamerialWhiteBackground
 hi! link SignColumn FlamerialWhiteForeground
-hi! link DiagnosticHint FlamerialBlackVariant0Background
-hi! link DiagnosticError FlamerialBlackVariant0Background
-hi! link DiagnosticWarn FlamerialBlackVariant0Background
-hi! link DiagnosticInfo FlamerialBlackVariant0Background
-hi! link DiagnosticOk FlamerialBlackVariant0Background
-hi! link StatusLine FlamerialBlackVariant0Background
+hi! link DiagnosticHint Normal
+hi! link DiagnosticError Normal
+hi! link DiagnosticWarn Normal
+hi! link DiagnosticInfo Normal
+hi! link DiagnosticOk Normal
+hi! link StatusLine Normal
 hi! link Function FlamerialMagentaForeground
 hi! link Operator FlamerialWhiteForeground
 hi! link Structure Type
