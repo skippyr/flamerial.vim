@@ -136,6 +136,9 @@ hi! link shOption Operator
 hi! link shTestOpr Operator
 hi! link shArithmetic Number
 
+" ZSH Highlights
+hi! link zshVariable Identifier
+
 " Ruby Highlights
 hi! link rubyDefine Statement
 hi! link rubyPseudoVariable Identifier
