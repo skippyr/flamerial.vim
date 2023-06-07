@@ -30,6 +30,9 @@ hi FlamerialNormalInverted ctermbg=7 ctermfg=0 guibg=#ebcba9 guifg=#332720
 " Core Highlights
 hi Normal ctermbg=0 ctermfg=7 guibg=#332720 guifg=#ebcba9
 hi DiagnosticUnderlineHint cterm=underline gui=underline guisp=#ebcba9
+hi CursorLine cterm=underline gui=underline ctermbg=NONE guibg=NONE guisp=#ebcba9
+hi CursorLineNr cterm=underline gui=underline ctermfg=3 guifg=#de7c04 guisp=#de7c04
+hi! link CursorColumn FlamerialBlueBackground
 hi! link Conceal FlamerialNoneBackground
 hi! link Underlined FlamerialWhiteForeground
 hi! link DiagnosticUnderlineWarn DiagnosticUnderlineHint
@@ -67,13 +70,10 @@ hi! link ColorColumn FlamerialBlueBackground
 hi! link Statement FlamerialCyanForeground
 hi! link Pmenu Normal
 hi! link PmenuSel FlamerialWhiteBackground
-hi! link PmenuSbar FlamerialYellowBackground
+hi! link PmenuSbar Normal
 hi! link PmenuThumb FlamerialWhiteBackground
 hi! link Question FlamerialGreenForeground
 hi! link MoreMsg FlamerialGreenForeground
-hi! link CursorLine Normal
-hi! link CursorLineNr Normal
-hi! link CursorColumn Normal
 hi! link Delimiter FlamerialWhiteForeground
 hi! link Directory FlamerialRedForeground
 hi! link Todo Comment
