@@ -9,30 +9,30 @@ endif
 let g:airline_theme="flamerial"
 
 " Foreground Highlights
-hi FlamerialRedForeground ctermfg=1 guifg=#b3001b
-hi FlamerialYellowForeground ctermfg=3 guifg=#bf5b04
-hi FlamerialBlueForeground ctermfg=4 guifg=#857256
-hi FlamerialGreenForeground ctermfg=2 guifg=#9c661f
-hi FlamerialMagentaForeground ctermfg=5 guifg=#8a5b3e
-hi FlamerialCyanForeground ctermfg=6 guifg=#9c3513
-hi FlamerialWhiteForeground ctermfg=7 guifg=#f5cc7a
+hi FlamerialRedForeground ctermfg=1 guifg=#cc2623
+hi FlamerialYellowForeground ctermfg=3 guifg=#de7c04
+hi FlamerialBlueForeground ctermfg=4 guifg=#aaab90
+hi FlamerialGreenForeground ctermfg=2 guifg=#c99510
+hi FlamerialMagentaForeground ctermfg=5 guifg=#b35f6c
+hi FlamerialCyanForeground ctermfg=6 guifg=#d1441d
+hi FlamerialWhiteForeground ctermfg=7 guifg=#ebcba9
 hi FlamerialLightBlackForeground ctermfg=2 guifg=#916634
 
 " Background Highlights
-hi FlamerialRedBackground ctermbg=1 ctermfg=7 guibg=#b3001b guifg=#f5cc7a
-hi FlamerialYellowBackground ctermbg=3 ctermfg=7 guibg=#bf5b04 guifg=#1f1307
-hi FlamerialBlueBackground ctermbg=4 ctermfg=7 guibg=#857256 guifg=#1f1307
-hi FlamerialMagentaBackground ctermbg=5 ctermfg=7 guibg=#8a5b3e guifg=#f5cc7a
-hi FlamerialCyanBackground ctermbg=6 ctermfg=7 guibg=#9c3513 guifg=#f5cc7a
-hi FlamerialWhiteBackground ctermbg=7 ctermfg=0 guibg=#f5cc7a guifg=#1f1307
-hi FlamerialLightBlackBackground ctermbg=2 ctermfg=7 guibg=#916634 guifg=#f5cc7a
-hi FlamerialBlackVariant0Background ctermbg=0 ctermfg=7 guibg=#40270f guifg=#f5cc7a
+hi FlamerialRedBackground ctermbg=1 ctermfg=7 guibg=#cc2623 guifg=#ebcba9
+hi FlamerialYellowBackground ctermbg=3 ctermfg=7 guibg=#de7c04 guifg=#332720
+hi FlamerialBlueBackground ctermbg=4 ctermfg=7 guibg=#aaab90 guifg=#332720
+hi FlamerialMagentaBackground ctermbg=5 ctermfg=7 guibg=#b35f6c guifg=#ebcba9
+hi FlamerialCyanBackground ctermbg=6 ctermfg=7 guibg=#d1441d guifg=#ebcba9
+hi FlamerialWhiteBackground ctermbg=7 ctermfg=0 guibg=#ebcba9 guifg=#332720
+hi FlamerialLightBlackBackground ctermbg=2 ctermfg=7 guibg=#916634 guifg=#ebcba9
+hi FlamerialBlackVariant0Background ctermbg=0 ctermfg=7 guibg=#40270f guifg=#ebcba9
 hi FlamerialNoneBackground ctermbg=NONE guibg=NONE
-hi FlamerialNormalInverted ctermbg=7 ctermfg=0 guibg=#f5cc7a guifg=#1f1307
+hi FlamerialNormalInverted ctermbg=7 ctermfg=0 guibg=#ebcba9 guifg=#332720
 
 " Core Highlights
-hi Normal ctermbg=0 ctermfg=7 guibg=#1f1307 guifg=#f5cc7a
-hi DiagnosticUnderlineHint cterm=underline gui=underline guisp=#f5cc7a
+hi Normal ctermbg=0 ctermfg=7 guibg=#332720 guifg=#ebcba9
+hi DiagnosticUnderlineHint cterm=underline gui=underline guisp=#ebcba9
 hi! link Conceal FlamerialNoneBackground
 hi! link Underlined FlamerialWhiteForeground
 hi! link DiagnosticUnderlineWarn DiagnosticUnderlineHint
@@ -142,6 +142,7 @@ hi! link shArithmetic Number
 " Ruby Highlights
 hi! link rubyDefine Statement
 hi! link rubyPseudoVariable Identifier
+hi! link rubySymbol Type
 
 " Vim Highlights
 hi! link vimNotation String
