@@ -1,14 +1,26 @@
-" Startup Settings
+" Resets the theme to the default colors to avoid conflicts with the
+" highlights when changing from other colorschemes.
 hi clear
+" Checking if it is to automatically detect color support and set it if it was
+" not set by the user.
+"
+" As some terminal emulators delegate wrong color support, this option exists
+" to allow the user to able to set or unset GUI colors manually.
 if !exists("g:flamerial_auto_detect_color_support")
-	let g:flamerial_auto_detect_color_support=1
+    let g:flamerial_auto_detect_color_support=1
 endif
+" Automatically enable GUI colors if it is to detect color support and the
+" terminal emulator supports the 8 bits color palette.
 if g:flamerial_auto_detect_color_support == 1 && &t_Co != 8
-	set termguicolors
+    set termguicolors
 endif
+" Sets the correspondend theme to be used by the vim-ailine plugin.
 let g:airline_theme="flamerial"
 
-" Foreground Highlights
+" Flamerial Highlights
+" These contains the colors to be used in the theme.
+
+" Foreground
 hi FlamerialRedForeground ctermfg=1 guifg=#cc2623
 hi FlamerialYellowForeground ctermfg=3 guifg=#de7c04
 hi FlamerialBlueForeground ctermfg=4 guifg=#aaab90
@@ -17,7 +29,7 @@ hi FlamerialMagentaForeground ctermfg=5 guifg=#b35f6c
 hi FlamerialCyanForeground ctermfg=6 guifg=#d1441d
 hi FlamerialWhiteForeground ctermfg=7 guifg=#ebcba9
 
-" Background Highlights
+" Background
 hi FlamerialRedBackground ctermbg=1 ctermfg=7 guibg=#cc2623 guifg=#ebcba9
 hi FlamerialYellowBackground ctermbg=3 ctermfg=7 guibg=#de7c04 guifg=#332720
 hi FlamerialBlueBackground ctermbg=4 ctermfg=7 guibg=#aaab90 guifg=#332720
@@ -27,7 +39,7 @@ hi FlamerialWhiteBackground ctermbg=7 ctermfg=0 guibg=#ebcba9 guifg=#332720
 hi FlamerialNoneBackground ctermbg=NONE guibg=NONE
 hi FlamerialNormalInverted ctermbg=7 ctermfg=0 guibg=#ebcba9 guifg=#332720
 
-" Core Highlights
+" GUI Highlights
 hi Normal ctermbg=0 ctermfg=7 guibg=#332720 guifg=#ebcba9
 hi DiagnosticUnderlineHint cterm=underline gui=underline guisp=#ebcba9
 hi CursorLine cterm=underline gui=underline ctermbg=NONE guibg=NONE guisp=#ebcba9
