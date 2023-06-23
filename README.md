@@ -37,9 +37,9 @@ different.
 * [vim-plug](https://github.com/junegunn/vim-plug)
     * Add this Plug rule to your plugins configuration:
 
-        ```vim
-        Plug "skippyr/flamerial.nvim"
-        ```
+    ```vim
+    Plug "skippyr/flamerial.nvim"
+    ```
 
     * Reopen Vim/Neovim to reload the configuration file.
     * Use the `:PlugInstall` command to download the theme.
@@ -48,31 +48,31 @@ different.
 
         * If you are using Vim script.
 
-            ```vim
-            colorscheme flamerial
-            ```
+        ```vim
+        colorscheme flamerial
+        ```
 
         * If you are using Lua (Neovim only).
 
-            ```lua
-            vim.cmd("colorscheme flamerial")
-            ```
+        ```lua
+        vim.cmd("colorscheme flamerial")
+        ```
 
 * [packer.nvim](https://github.com/wbthomason/packer.nvim) (Neovim only)
     * Add this `use` rule to your plugins configuration:
 
-        ```vim
-        use "skippyr/flamerial.nvim"
-        ```
+    ```vim
+    use "skippyr/flamerial.nvim"
+    ```
 
     * Reopen Neovim.
     * Use the `:PackerSync` command to download the theme.
     * Apply the theme by using a cmd call to the `colorscheme` rule in your
       Neovim configuration file:
 
-        ```lua
-        vim.cmd("colorscheme flamerial")
-        ```
+    ```lua
+    vim.cmd("colorscheme flamerial")
+    ```
 
 ### Manually
 
@@ -81,47 +81,47 @@ structure and it will not be possible to easily update it.
 
 * Install `git` and clone this repository.
 
-    ```bash
-    git clone --depth=1 https://github.com/skippyr/flamerial
-    ```
+```bash
+git clone --depth=1 https://github.com/skippyr/flamerial
+```
 
 * Access the repository's directory.
 
-    ```bash
-    cd flamerial
-    ```
+```bash
+cd flamerial
+```
 
 * Copy the directories `autoload` and `colors` to your Vim/Neovim configuration
   directory:
 
-  * For Vim:
+    * For Vim.
 
-        ```bash
-        mkdir -p ~/.vim &&
-        cp -r {autoload,colors} ~/.vim
-        ```
+    ```bash
+    mkdir -p ~/.vim &&
+    cp -r {autoload,colors} ~/.vim
+    ```
 
-  * For Neovim:
+    * For Neovim:
 
-        ```bash
-        mkdir -p ~/.config/nvim &&
-        cp -r {autoload,colors} ~/.config/nvim
-        ```
+    ```
+    mkdir -p ~/.config/nvim &&
+    cp -r {autoload,colors} ~/.config/nvim
+    ```
 
 * Apply the theme by using the `colorscheme` rule in your Vim/Neovim
   configuration file:
 
     * If you are using Vim script.
 
-        ```vim
-        colorscheme flamerial
-        ```
+    ```vim
+    colorscheme flamerial
+    ```
 
     * If you are using Lua (Neovim only).
 
-        ```lua
-        vim.cmd("colorscheme flamerial")
-        ```
+    ```lua
+    vim.cmd("colorscheme flamerial")
+    ```
 
 ## Issues And Contributions
 
