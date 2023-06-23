@@ -103,7 +103,7 @@ cd flamerial
 
     * For Neovim:
 
-    ```
+    ```bash
     mkdir -p ~/.config/nvim &&
     cp -r {autoload,colors} ~/.config/nvim
     ```
