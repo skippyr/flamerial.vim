@@ -11,11 +11,12 @@ hi FlamerialLightBlackFg guifg=#c78e59 ctermfg=8
 " UI and Syntax Highlights
 hi  Normal          guibg=#241a12    ctermbg=0 guifg=#e6d0bb ctermfg=7
 hi  LineNr          guibg=#33251a    ctermbg=0 guifg=#d97904 ctermfg=3
+hi  NonText         guifg=#543c2a    ctermfg=0 gui=NONE
+hi  ColorColumn     guibg=#33251a    ctermbg=1 guifg=#e6d0bb ctermfg=7
 hi! link Statement  FlamerialCyanFg
 hi! link Identifier FlamerialYellowFg
 hi! link Delimiter  FlamerialWhiteFg
-hi! link NonText    FlamerialLightBlackFg
-hi! link Comment    NonText
+hi! link Comment    FlamerialLightBlackFg
 hi! link Number     FlamerialRedFg
 hi! link String     FlamerialRedFg
 hi! link Function   FlamerialRedFg
