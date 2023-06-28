@@ -6,6 +6,7 @@ hi FlamerialRedFg        guifg=#a62929 ctermfg=1
 hi FlamerialGreenFg      guifg=#9a6b1b ctermfg=2
 hi FlamerialYellowFg     guifg=#d97904 ctermfg=3
 hi FlamerialBlueFg       guifg=#a59a78 ctermfg=4
+hi FlamerialMagentaFg    guifg=#b3374a ctermfg=5
 hi FlamerialCyanFg       guifg=#c2421f ctermfg=6
 hi FlamerialWhiteFg      guifg=#e6d0bb ctermfg=7
 hi FlamerialLightBlackFg guifg=#c78e59 ctermfg=8
@@ -36,7 +37,7 @@ hi! link Visual          FlamerialWhiteBg
 hi! link MatchParen      FlamerialWhiteBg
 hi! link Search          FlamerialWhiteBg
 hi! link Delimiter       FlamerialWhiteFg
-hi! link PreProc         FlamerialWhiteFg
+hi! link PreProc         FlamerialMagentaFg
 hi! link Title           FlamerialWhiteFg
 hi! link SpecialKey      FlamerialWhiteFg
 hi! link Statement       FlamerialCyanFg
