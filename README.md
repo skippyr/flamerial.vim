@@ -11,7 +11,7 @@ Here are some previews that you can check out.
 > In the previews, the Flamerial theme was used in Neovim. The plugins:
 > [vim-airline](https://github.com/vim-airline/vim-airline), [vim-signify](https://github.com/mhinz/vim-signify) and [Mason](https://github.com/williamboman/mason-lspconfig.nvim)
 > with an LSP server for Typescript were used. Plugins can affect how the theme
-> highlights in your setup.
+> highlights in your setup. Font used is [IntelOne Mono](https://github.com/intel/intel-one-mono).
 
 For more ports or details about the Flamerial theme, check out its
 [main repository](https://github.com/skippyr/flamerial).
