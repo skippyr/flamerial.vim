@@ -109,5 +109,3 @@ This project is released under the terms of the MIT license. A copy of the
 license is bundled with the source code.
 
 Copyright (c) 2023, Sherman Rofeman. MIT license.
-
-Copyright (c) 2023, Sherman Rofeman. MIT license.
