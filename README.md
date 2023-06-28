@@ -3,6 +3,16 @@
 The Flamerial (Vim/Neovim) project is the port of the Flamerial theme for Vim
 and Neovim.
 
+Here are some previews that you can check out.
+
+![](images/preview_html.png)
+![](images/preview_typescript.png)
+
+> In the previews, the Flamerial theme was used in Neovim. The plugins:
+> [vim-airline](https://github.com/vim-airline/vim-airline), [vim-signify](https://github.com/mhinz/vim-signify) and [Mason](https://github.com/williamboman/mason-lspconfig.nvim)
+> with an LSP server for Typescript were used. Plugins can affect how the theme
+> highlights in your setup.
+
 For more ports or details about the Flamerial theme, check out its
 [main repository](https://github.com/skippyr/flamerial).
 
@@ -97,5 +107,7 @@ Learn how to report issues and contribute to this project by reading its
 
 This project is released under the terms of the MIT license. A copy of the
 license is bundled with the source code.
+
+Copyright (c) 2023, Sherman Rofeman. MIT license.
 
 Copyright (c) 2023, Sherman Rofeman. MIT license.

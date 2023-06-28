@@ -1,5 +1,4 @@
 hi clear
-set termguicolors
 let g:airline_theme='flamerial'
 
 " Foreground Highlights

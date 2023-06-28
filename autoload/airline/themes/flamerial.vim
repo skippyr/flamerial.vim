@@ -18,8 +18,8 @@ let s:inactive_a = ["#e6d0bb",  "#33251a",  7,       0]
 let s:inactive_b = ["#e6d0bb",  "#33251a",  7,       0]
 let s:inactive_c = ["#e6d0bb",  "#33251a",  7,       0]
 
-" The airline#generate_color_map() function will duplicate the array of colors
-" used in the left sections of the bar to the right ones.
+" The airline#themes#generate_color_map() function will duplicate the array of
+" colors used in the left sections of the bar to the right ones.
 
 let g:airline#themes#flamerial#palette.normal = airline#themes#generate_color_map(s:normal_a, s:normal_b, s:normal_c)
 let g:airline#themes#flamerial#palette.commandline = airline#themes#generate_color_map(s:normal_a, s:normal_b, s:normal_c)
