@@ -1,5 +1,5 @@
 hi clear
-set termguicolors
+" set termguicolors
 
 " Foreground Highlights
 hi FlamerialRedFg        guifg=#a62929 ctermfg=1
@@ -11,6 +11,10 @@ hi FlamerialWhiteFg      guifg=#e6d0bb ctermfg=7
 hi FlamerialLightBlackFg guifg=#c78e59 ctermfg=8
 
 " Background Highlights
+hi FlamerialRedBg           guibg=#a62929 ctermbg=1 guifg=#e6d0bb ctermfg=7
+hi FlamerialBlueBg          guibg=#a59a78 ctermbg=4 guifg=#e6d0bb ctermfg=7
+hi FlamerialMagentaBg       guibg=#b3374a ctermbg=5 guifg=#e6d0bb ctermfg=7
+hi FlamerialCyanBg          guibg=#c2421f ctermbg=6 guifg=#e6d0bb ctermfg=7
 hi FlamerialWhiteBg         guibg=#e6d0bb ctermbg=7 guifg=#241a12 ctermfg=0
 hi FlamerialBlackVariant2Bg guibg=#735239 ctermbg=0 guifg=#e6d0bb ctermfg=7
 
@@ -18,25 +22,41 @@ hi FlamerialBlackVariant2Bg guibg=#735239 ctermbg=0 guifg=#e6d0bb ctermfg=7
 hi Normal      guibg=#241a12 ctermbg=0 guifg=#e6d0bb ctermfg=7
 hi LineNr      guibg=#33251a ctermbg=0 guifg=#d97904 ctermfg=3
 hi NonText     guifg=#543c2a ctermfg=0 gui=NONE
-hi ColorColumn guibg=#33251a ctermbg=1 guifg=#e6d0bb ctermfg=7
+hi ColorColumn guibg=#33251a ctermbg=7 guifg=#e6d0bb ctermfg=0
 hi Pmenu       guibg=#33251a ctermbg=0 guifg=#e6d0bb ctermfg=7
-hi! link PmenuSel     FlamerialBlackVariant2Bg
-hi! link Visual       FlamerialWhiteBg
-hi! link MatchParen   FlamerialWhiteBg
-hi! link Statement    FlamerialCyanFg
-hi! link StorageClass FlamerialCyanFg
-hi! link Identifier   FlamerialGreenFg
-hi! link Constant     Identifier
-hi! link Delimiter    FlamerialWhiteFg
-hi! link PreProc      FlamerialWhiteFg
-hi! link Title        FlamerialWhiteFg
-hi! link Comment      FlamerialLightBlackFg
-hi! link Number       FlamerialRedFg
-hi! link String       FlamerialRedFg
-hi! link Structure    FlamerialRedFg
-hi! link Type         FlamerialRedFg
-hi! link Underlined   FlamerialRedFg
-hi! link Function     FlamerialYellowFg
+hi! link PmenuSel       FlamerialBlackVariant2Bg
+hi! link PmenuSbar      Normal
+hi! link PmenuThumb     FlamerialWhiteBg
+hi! link Visual         FlamerialWhiteBg
+hi! link MatchParen     FlamerialWhiteBg
+hi! link Search         FlamerialWhiteBg
+hi! link Statement      FlamerialCyanFg
+hi! link StorageClass   FlamerialCyanFg
+hi! link Identifier     FlamerialGreenFg
+hi! link Constant       Identifier
+hi! link Delimiter      FlamerialWhiteFg
+hi! link PreProc        FlamerialWhiteFg
+hi! link Title          FlamerialWhiteFg
+hi! link Comment        FlamerialLightBlackFg
+hi! link Todo           Comment
+hi! link SpecialComment Comment
+hi! link Number         FlamerialRedFg
+hi! link String         FlamerialRedFg
+hi! link Character      String
+hi! link Structure      FlamerialRedFg
+hi! link Type           FlamerialRedFg
+hi! link Underlined     FlamerialRedFg
+hi! link Function       FlamerialYellowFg
+hi! link ErrorMsg       FlamerialRedBg
+hi! link Error          ErrorMsg
+hi! link WarningMsg     ErrorMsg
+hi! link SpellBad       FlamerialRedBg
+hi! link SpellRare      FlamerialMagentaBg
+hi! link SpellCap       FlamerialBlueBg
+hi! link SpellLocal     FlamerialCyanBg
+hi! link Question       FlamerialGreenFg
+hi! link MoreMsg        FlamerialGreenFg
+hi! link Directory      FlamerialRedFg
 
 " Javascript Highlight Fixes
 hi! link javascriptBraces   Delimiter
@@ -51,8 +71,8 @@ hi! link typescriptConsoleMethod FlamerialWhiteFg
 hi! link typescriptGlobal        Identifier
 
 " HTML Highlight Fixes
-hi! link htmlArg Identifier
-hi! link htmlTag Statement
+hi! link htmlArg    Identifier
+hi! link htmlTag    Statement
 hi! link htmlEndTag htmlTag
 
 " PHP Highlight Fixes
@@ -106,7 +126,6 @@ hi! link markdownH6          markdownH1
 hi! link markdownH6Delimiter markdownH1
 
 " Rust Highlight Fixes
-hi! link rustCommentLineDoc Comment
 hi! link rustDerive         FlamerialWhiteFg
 hi! link rustIdentifier     Structure
 hi! link rustAttribute      Function
