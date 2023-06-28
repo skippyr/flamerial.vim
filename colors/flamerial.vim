@@ -1,5 +1,6 @@
 hi clear
-" set termguicolors
+set termguicolors
+let g:airline_theme='flamerial'
 
 " Foreground Highlights
 hi FlamerialRedFg        guifg=#a62929 ctermfg=1

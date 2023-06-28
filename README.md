@@ -1,13 +1,14 @@
 # Flamerial (Vim/Neovim)
 
-The Flamerial.Nvim project is the port of the Flamerial theme for Vim and
-Neovim.
+The Flamerial (Vim/Neovim) project is the port of the Flamerial theme for Vim
+and Neovim.
 
-For more ports of the Flamerial theme, check out its [main repository](https://github.com/skippyr/flamerial).
+For more ports or details about the Flamerial theme, check out its
+[main repository](https://github.com/skippyr/flamerial).
 
 ## Installation
 
-### Using A Plugin Manager.
+### Using A Plugin Manager
 
 It is recommended to install this theme using a plguin manager, as it allows
 you to easily update it in the future.
@@ -61,7 +62,7 @@ cd flamerial.nvim
 
 ## Usage
 
-After you have installed the plugin, you need to enable the option
+After you have installed the theme, you need to enable the option
 `termguicolors` and apply the theme in your Vim/Neovim configuration file. This
 difers depending of what language you are configuring your editor:
 
