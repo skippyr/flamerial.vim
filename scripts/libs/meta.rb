@@ -32,15 +32,38 @@ class Highlight
 end
 
 NONE = 'NONE'
+colors = {
+  black:           '#0d0807',
+  black_variant_1: '#261815',
+  black_variant_2: '#402722',
+  red:             '#8a4033',
+  green:           '#8f764f',
+  yellow:          '#85695d',
+  blue:            '#918686',
+  magenta:         '#85444c',
+  cyan:            '#8f5519',
+  white:           '#c2bcb2',
+  light_black:     '#918686'
+}
 $flamerial = {
-  black_fg:       Highlight.new('#0d0807', NONE, NONE, 0),
-  red_fg:         Highlight.new('#8a4033', NONE, NONE, 1),
-  green_fg:       Highlight.new('#8f764f', NONE, NONE, 2),
-  yellow_fg:      Highlight.new('#85695d', NONE, NONE, 3),
-  blue_fg:        Highlight.new('#918686', NONE, NONE, 4),
-  magenta_fg:     Highlight.new('#85444c', NONE, NONE, 5),
-  cyan_fg:        Highlight.new('#8f5519', NONE, NONE, 6),
-  white_fg:       Highlight.new('#c2bcb2', NONE, NONE, 7),
-  light_black_fg: Highlight.new('#918686', NONE, NONE, 8),
+  # Foreground Highlights
+  red_fg:         Highlight.new(NONE, colors[:red], NONE, 1),
+  green_fg:       Highlight.new(NONE, colors[:green], NONE, 2),
+  yellow_fg:      Highlight.new(NONE, colors[:yellow], NONE, 3),
+  blue_fg:        Highlight.new(NONE, colors[:blue], NONE, 4),
+  magenta_fg:     Highlight.new(NONE, colors[:magenta], NONE, 5),
+  cyan_fg:        Highlight.new(NONE, colors[:cyan], NONE, 6),
+  white_fg:       Highlight.new(NONE, colors[:white], NONE, 7),
+  light_black_fg: Highlight.new(NONE, colors[:light_black], NONE, 8),
+
+  # Background Highlights
+  black_bg:           Highlight.new(colors[:black], colors[:white], 0, 7),
+  black_variant_1_bg: Highlight.new(colors[:black_variant_1], colors[:white], 0, 7),
+  black_variant_2_bg: Highlight.new(colors[:black_variant_2], colors[:white], 0, 7),
+  red_bg:             Highlight.new(colors[:red], colors[:white], 1, 7),
+  blue_bg:            Highlight.new(colors[:blue], colors[:white], 4, 7),
+  magenta_bg:         Highlight.new(colors[:magenta], colors[:white], 5, 7),
+  cyan_bg:            Highlight.new(colors[:cyan], colors[:white], 6, 7),
+  white_bg:           Highlight.new(colors[:white], colors[:black], 7, 0),
 }
 
