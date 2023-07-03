@@ -6,24 +6,8 @@ class Highlight
     @ansi_fg = ansi_fg
   end
 
-  def get_hex_bg()
-    @hex_bg
-  end
-
-  def get_hex_fg()
-    @hex_fg
-  end
-
-  def get_ansi_bg()
-    @ansi_bg
-  end
-
-  def get_ansi_fg()
-    @ansi_fg
-  end
-
   def as_copy(name)
-    "hi #{name} guibg=#{@hex_bg} guifg=#{@hex_fg} ctermbg=#{@ansi_bg} ctermfg=#{@ansi_fg}"
+    "hi #{name} gui=NONE guibg=#{@hex_bg} guifg=#{@hex_fg} cterm=NONE ctermbg=#{@ansi_bg} ctermfg=#{@ansi_fg}"
   end
 
   def as_array_var(var)

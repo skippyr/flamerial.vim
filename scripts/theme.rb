@@ -6,49 +6,51 @@ end
 
 highlights = [
   # UI Highlights
-  hi("Normal", :black_bg),
-  hi("LineNr", :yellow_fg),
-  hi("NonText", :black_variant_1_fg),
+  hi("Character", :red_fg),
   hi("ColorColumn", :black_variant_1_bg),
-  hi("Pmenu", :black_variant_1_bg),
-  hi("PmenuSbar", :black_bg),
-  hi("PmenuThumb", :white_bg),
-  hi("DiagnosticHint", :black_bg),
+  hi("Comment", :light_black_fg),
+  hi("Constant", :green_fg),
+  hi("Delimiter", :white_fg),
   hi("DiagnosticError", :black_bg),
-  hi("DiagnosticWarn", :black_bg),
+  hi("DiagnosticHint", :black_bg),
   hi("DiagnosticInfo", :black_bg),
   hi("DiagnosticOk", :black_bg),
-  hi("Visual", :white_bg),
-  hi("MatchParen", :white_bg),
-  hi("Search", :white_bg),
-  hi("Delimiter", :white_fg),
-  hi("PreProc", :magenta_fg),
-  hi("Title", :white_fg),
-  hi("SpecialKey", :white_fg),
-  hi("Statement", :cyan_fg),
-  hi("StorageClass", :cyan_fg),
-  hi("Identifier", :green_fg),
-  hi("Constant", :green_fg),
-  hi("Comment", :light_black_fg),
-  hi("Todo", :light_black_fg),
-  hi("SpecialComment", :light_black_fg),
-  hi("Number", :red_fg),
-  hi("String", :red_fg),
-  hi("Character", :red_fg),
-  hi("Structure", :red_fg),
-  hi("Underlined", :white_fg),
-  hi("Function", :yellow_fg),
-  hi("ErrorMsg", :red_bg),
+  hi("DiagnosticWarn", :black_bg),
+  hi("Directory", :red_fg),
   hi("Error", :red_bg),
-  hi("WarningMsg", :red_bg),
+  hi("ErrorMsg", :red_bg),
+  hi("Function", :yellow_fg),
+  hi("Identifier", :green_fg),
+  hi("LineNr", :yellow_fg),
+  hi("MatchParen", :black_variant_1_bg),
+  hi("MoreMsg", :green_fg),
+  hi("NonText", :black_variant_1_fg),
+  hi("Normal", :black_bg),
+  hi("Number", :red_fg),
+  hi("Operator", :white_fg),
+  hi("Pmenu", :black_variant_1_bg),
+  hi("PmenuSbar", :black_bg),
+  hi("PmenuSel", :black_variant_2_bg),
+  hi("PmenuThumb", :white_bg),
+  hi("PreProc", :magenta_fg),
+  hi("Question", :green_fg),
+  hi("Search", :red_bg),
+  hi("SpecialComment", :light_black_fg),
+  hi("SpecialKey", :white_fg),
   hi("SpellBad", :red_bg),
-  hi("SpellRare", :magenta_bg),
   hi("SpellCap", :blue_bg),
   hi("SpellLocal", :cyan_bg),
-  hi("Question", :green_fg),
-  hi("MoreMsg", :green_fg),
-  hi("Directory", :red_fg),
-  hi("Operator", :white_fg),
+  hi("SpellRare", :magenta_bg),
+  hi("Statement", :cyan_fg),
+  hi("StorageClass", :cyan_fg),
+  hi("String", :red_fg),
+  hi("Structure", :red_fg),
+  hi("Title", :white_fg),
+  hi("Todo", :light_black_fg),
+  hi("Type", :red_fg),
+  hi("Underlined", :white_fg),
+  hi("Visual", :red_bg),
+  hi("WarningMsg", :red_bg),
 
   # Javascript Highlight Fixes
   hi("javascriptBraces", :white_fg),
@@ -57,40 +59,40 @@ highlights = [
 
   # Typescript Highlight Fixes
   hi("typescriptBraces", :white_fg),
-  hi("typescriptVariable", :cyan_fg),
-  hi("typescriptIdentifier", :green_fg),
   hi("typescriptConsoleMethod", :white_fg),
   hi("typescriptGlobal", :green_fg),
+  hi("typescriptIdentifier", :green_fg),
+  hi("typescriptVariable", :cyan_fg),
 
   # HTML Highlight Fixes
   hi("htmlArg", :green_fg),
-  hi("htmlTag", :cyan_fg),
   hi("htmlEndTag", :cyan_fg),
+  hi("htmlTag", :cyan_fg),
 
   # PHP Highlight Fixes
   hi("phpVarSelector", :green_fg),
 
   # CSS Highlight Fixes
-  hi("cssBraces", :white_fg),
-  hi("cssProp", :green_fg),
   hi("cssAtRule", :yellow_fg),
   hi("cssAttrComma", :white_fg),
+  hi("cssBraces", :white_fg),
   hi("cssClassName", :cyan_fg),
   hi("cssClassNameDot", :cyan_fg),
-  hi("cssTagName", :cyan_fg),
-  hi("cssCustomProp", :green_fg),
   hi("cssColor", :red_fg),
+  hi("cssCustomProp", :green_fg),
+  hi("cssProp", :green_fg),
+  hi("cssTagName", :cyan_fg),
 
   # Lua Highlight Fixes
   hi("luaFunction", :cyan_fg),
   hi("luaTable", :white_fg),
 
   # Shell Script Highlight Fixes
-  hi("shFunctionKey", :cyan_fg),
+  hi("shArithmetic", :red_fg),
   hi("shDerefSimple", :red_fg),
+  hi("shFunctionKey", :cyan_fg),
   hi("shOption", :white_fg),
   hi("shTestOpr", :white_fg),
-  hi("shArithmetic", :red_fg),
 
   # ZSH Script Highlight Fixes
   hi("zshVariable", :green_fg),
@@ -118,9 +120,9 @@ highlights = [
   hi("markdownH6Delimiter", :cyan_fg),
 
   # Rust Highlight Fixes
+  hi("rustAttribute", :yellow_fg),
   hi("rustDerive", :white_fg),
   hi("rustIdentifier", :red_fg),
-  hi("rustAttribute", :yellow_fg),
 
   # Java Highlight Fixes
   hi("javaTypeDef", :green_fg),
@@ -128,8 +130,8 @@ highlights = [
   # CocNvim Plugin Highlights Fixes
   hi("CocErrorSign", :red_fg),
   hi("CocHintSign", :blue_fg),
-  hi("CocSearch", :red_fg),
   hi("CocMenuSel", :black_variant_2_bg),
+  hi("CocSearch", :red_fg),
 
   # Vim Signify Plugin Highlight Fixes
   hi("DiffAdd", :white_fg),
@@ -144,13 +146,13 @@ highlights = [
   hi("jsThis", :green_fg),
 
   # Javascript React (jsx) Highlights
-  hi("jsxTagName", :cyan_fg),
-  hi("jsxOpenPunct", :white_fg),
+  hi("jsExport", :cyan_fg),
+  hi("jsFunction", :cyan_fg),
+  hi("jsxAttribKeyword", :green_fg),
   hi("jsxClosePunct", :white_fg),
   hi("jsxCloseString", :white_fg),
-  hi("jsxAttribKeyword", :green_fg),
-  hi("jsFunction", :cyan_fg),
-  hi("jsExport", :cyan_fg),
+  hi("jsxOpenPunct", :white_fg),
+  hi("jsxTagName", :cyan_fg),
 ]
 
 puts("hi clear
