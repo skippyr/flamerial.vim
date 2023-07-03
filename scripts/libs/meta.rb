@@ -47,14 +47,15 @@ colors = {
 }
 $flamerial = {
   # Foreground Highlights
-  red_fg:         Highlight.new(NONE, colors[:red], NONE, 1),
-  green_fg:       Highlight.new(NONE, colors[:green], NONE, 2),
-  yellow_fg:      Highlight.new(NONE, colors[:yellow], NONE, 3),
-  blue_fg:        Highlight.new(NONE, colors[:blue], NONE, 4),
-  magenta_fg:     Highlight.new(NONE, colors[:magenta], NONE, 5),
-  cyan_fg:        Highlight.new(NONE, colors[:cyan], NONE, 6),
-  white_fg:       Highlight.new(NONE, colors[:white], NONE, 7),
-  light_black_fg: Highlight.new(NONE, colors[:light_black], NONE, 8),
+  black_variant_1_fg: Highlight.new(NONE, colors[:black_variant_1], NONE, 7),
+  red_fg:             Highlight.new(NONE, colors[:red], NONE, 1),
+  green_fg:           Highlight.new(NONE, colors[:green], NONE, 2),
+  yellow_fg:          Highlight.new(NONE, colors[:yellow], NONE, 3),
+  blue_fg:            Highlight.new(NONE, colors[:blue], NONE, 4),
+  magenta_fg:         Highlight.new(NONE, colors[:magenta], NONE, 5),
+  cyan_fg:            Highlight.new(NONE, colors[:cyan], NONE, 6),
+  white_fg:           Highlight.new(NONE, colors[:white], NONE, 7),
+  light_black_fg:     Highlight.new(NONE, colors[:light_black], NONE, 8),
 
   # Background Highlights
   black_bg:           Highlight.new(colors[:black], colors[:white], 0, 7),

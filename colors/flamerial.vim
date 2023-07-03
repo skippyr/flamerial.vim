@@ -1,169 +1,112 @@
 hi clear
 let g:airline_theme='flamerial'
-
-" Foreground Highlights
-hi FlamerialRedFg        guifg=#a62929 ctermfg=1
-hi FlamerialGreenFg      guifg=#9a6b1b ctermfg=2
-hi FlamerialYellowFg     guifg=#d97904 ctermfg=3
-hi FlamerialBlueFg       guifg=#a59a78 ctermfg=4
-hi FlamerialMagentaFg    guifg=#b3374a ctermfg=5
-hi FlamerialCyanFg       guifg=#c2421f ctermfg=6
-hi FlamerialWhiteFg      guifg=#e6d0bb ctermfg=7
-hi FlamerialLightBlackFg guifg=#c78e59 ctermfg=8
-
-" Background Highlights
-hi FlamerialRedBg           guibg=#a62929 ctermbg=1 guifg=#e6d0bb ctermfg=7
-hi FlamerialBlueBg          guibg=#a59a78 ctermbg=4 guifg=#e6d0bb ctermfg=7
-hi FlamerialMagentaBg       guibg=#b3374a ctermbg=5 guifg=#e6d0bb ctermfg=7
-hi FlamerialCyanBg          guibg=#c2421f ctermbg=6 guifg=#e6d0bb ctermfg=7
-hi FlamerialWhiteBg         guibg=#e6d0bb ctermbg=7 guifg=#241a12 ctermfg=0
-hi FlamerialBlackVariant2Bg guibg=#735239 ctermbg=0 guifg=#e6d0bb ctermfg=7
-
-" UI and Syntax Highlights
-hi Normal      guibg=#241a12 ctermbg=0 guifg=#e6d0bb ctermfg=7
-hi LineNr      guibg=#33251a ctermbg=0 guifg=#d97904 ctermfg=3
-hi NonText     guifg=#543c2a ctermfg=0 gui=NONE
-hi ColorColumn guibg=#33251a ctermbg=7 guifg=#e6d0bb ctermfg=0
-hi Pmenu       guibg=#33251a ctermbg=0 guifg=#e6d0bb ctermfg=7
-hi! link PmenuSel        FlamerialBlackVariant2Bg
-hi! link PmenuSbar       Normal
-hi! link DiagnosticHint  Normal
-hi! link DiagnosticError Normal
-hi! link DiagnosticWarn  Normal
-hi! link DiagnosticInfo  Normal
-hi! link DiagnosticOk    Normal
-hi! link PmenuThumb      FlamerialWhiteBg
-hi! link Visual          FlamerialWhiteBg
-hi! link MatchParen      FlamerialWhiteBg
-hi! link Search          FlamerialWhiteBg
-hi! link Delimiter       FlamerialWhiteFg
-hi! link PreProc         FlamerialMagentaFg
-hi! link Title           FlamerialWhiteFg
-hi! link SpecialKey      FlamerialWhiteFg
-hi! link Statement       FlamerialCyanFg
-hi! link StorageClass    FlamerialCyanFg
-hi! link Identifier      FlamerialGreenFg
-hi! link Constant        Identifier
-hi! link Comment         FlamerialLightBlackFg
-hi! link Todo            Comment
-hi! link SpecialComment  Comment
-hi! link Number          FlamerialRedFg
-hi! link String          FlamerialRedFg
-hi! link Character       String
-hi! link Type            FlamerialRedFg
-hi! link Structure       Type
-hi! link Underlined      FlamerialRedFg
-hi! link Function        FlamerialYellowFg
-hi! link ErrorMsg        FlamerialRedBg
-hi! link Error           ErrorMsg
-hi! link WarningMsg      ErrorMsg
-hi! link SpellBad        FlamerialRedBg
-hi! link SpellRare       FlamerialMagentaBg
-hi! link SpellCap        FlamerialBlueBg
-hi! link SpellLocal      FlamerialCyanBg
-hi! link Question        FlamerialGreenFg
-hi! link MoreMsg         FlamerialGreenFg
-hi! link Directory       FlamerialRedFg
-hi! link Operator        FlamerialWhiteFg
-
-" Javascript Highlight Fixes
-hi! link javascriptBraces   Delimiter
-hi! link javascriptFunction Statement
-hi! link javascriptValue    FlamerialRedFg
-
-" Typescript Highlight Fixes
-hi! link typescriptBraces        Delimiter
-hi! link typescriptVariable      Statement
-hi! link typescriptIdentifier    Identifier
-hi! link typescriptConsoleMethod FlamerialWhiteFg
-hi! link typescriptGlobal        Identifier
-
-" HTML Highlight Fixes
-hi! link htmlArg    Identifier
-hi! link htmlTag    Statement
-hi! link htmlEndTag htmlTag
-
-" PHP Highlight Fixes
-hi! link phpVarSelector Identifier
-
-" CSS Highlight Fixes
-hi! link cssBraces       Delimiter
-hi! link cssProp         Identifier
-hi! link cssAtRule       Function
-hi! link cssAttrComma    FlamerialWhiteFg
-hi! link cssClassName    Statement
-hi! link cssClassNameDot cssClassName
-hi! link cssTagName      cssClassName
-hi! link cssCustomProp   Identifier
-hi! link cssColor        Number
-
-" Lua Highlight Fixes
-hi! link luaFunction Statement
-hi! link luaTable    Delimiter
-
-" Shell Script Highlight Fixes
-hi! link shFunctionKey Statement
-hi! link shDerefSimple String
-hi! link shOption      Operator
-hi! link shTestOpr     Operator
-hi! link shArithmetic  Number
-
-" ZSH Script Highlight Fixes
-hi! link zshVariable Identifier
-
-" Ruby Highlight Fixes
-hi! link rubyDefine         Statement
-hi! link rubyPseudoVariable Identifier
-hi! link rubySymbol         Type
-
-" Vim Highlight Fixes
-hi! link vimNotation String
-
-" Markdown Highlight Fixes
-hi! link markdownH1          Statement
-hi! link markdownH1Delimiter markdownH1
-hi! link markdownH2          markdownH1
-hi! link markdownH2Delimiter markdownH1
-hi! link markdownH3          markdownH1
-hi! link markdownH3Delimiter markdownH1
-hi! link markdownH4          markdownH1
-hi! link markdownH4Delimiter markdownH1
-hi! link markdownH5          markdownH1
-hi! link markdownH5Delimiter markdownH1
-hi! link markdownH6          markdownH1
-hi! link markdownH6Delimiter markdownH1
-
-" Rust Highlight Fixes
-hi! link rustDerive         FlamerialWhiteFg
-hi! link rustIdentifier     Structure
-hi! link rustAttribute      Function
-
-" Java Highlight Fixes
-hi! link javaTypeDef Identifier
-
-" CocNvim Plugin Highlights Fixes
-hi! link CocErrorSign FlamerialRedFg
-hi! link CocHintSign  FlamerialBlueFg
-hi! link CocSearch    FlamerialRedFg
-hi! link CocMenuSel   FlamerialBlackVariant2Bg
-
-" Vim Signify Plugin Highlight Fixes
-hi! link DiffAdd    FlamerialWhiteFg
-hi! link DiffChange FlamerialWhiteFg
-hi! link DiffDelete FlamerialWhiteFg
-hi! link DiffText   FlamerialWhiteFg
-hi! link SignColumn FlamerialWhiteFg
-
-" Vim-Polyglot Plugin Highlights Fixes
-" Javascript
-hi! link jsClassDefinition Structure
-hi! link jsThis            Identifier
-
-" Javascript React (jsx) Highlights
-hi! link jsxTagName       Statement
-hi! link jsxOpenPunct     Delimiter
-hi! link jsxClosePunct    jsxOpenPunct
-hi! link jsxCloseString   jsxOpenPunct
-hi! link jsxAttribKeyword Identifier
-hi! link jsFunction       Statement
-hi! link jsExport         Statement
+hi Normal guibg=#0d0807 guifg=#c2bcb2 ctermbg=0 ctermfg=7
+hi LineNr guibg=NONE guifg=#85695d ctermbg=NONE ctermfg=3
+hi NonText guibg=NONE guifg=#261815 ctermbg=NONE ctermfg=7
+hi ColorColumn guibg=#261815 guifg=#c2bcb2 ctermbg=0 ctermfg=7
+hi Pmenu guibg=#261815 guifg=#c2bcb2 ctermbg=0 ctermfg=7
+hi PmenuSbar guibg=#0d0807 guifg=#c2bcb2 ctermbg=0 ctermfg=7
+hi PmenuThumb guibg=#c2bcb2 guifg=#0d0807 ctermbg=7 ctermfg=0
+hi DiagnosticHint guibg=#0d0807 guifg=#c2bcb2 ctermbg=0 ctermfg=7
+hi DiagnosticError guibg=#0d0807 guifg=#c2bcb2 ctermbg=0 ctermfg=7
+hi DiagnosticWarn guibg=#0d0807 guifg=#c2bcb2 ctermbg=0 ctermfg=7
+hi DiagnosticInfo guibg=#0d0807 guifg=#c2bcb2 ctermbg=0 ctermfg=7
+hi DiagnosticOk guibg=#0d0807 guifg=#c2bcb2 ctermbg=0 ctermfg=7
+hi Visual guibg=#c2bcb2 guifg=#0d0807 ctermbg=7 ctermfg=0
+hi MatchParen guibg=#c2bcb2 guifg=#0d0807 ctermbg=7 ctermfg=0
+hi Search guibg=#c2bcb2 guifg=#0d0807 ctermbg=7 ctermfg=0
+hi Delimiter guibg=NONE guifg=#c2bcb2 ctermbg=NONE ctermfg=7
+hi PreProc guibg=NONE guifg=#85444c ctermbg=NONE ctermfg=5
+hi Title guibg=NONE guifg=#c2bcb2 ctermbg=NONE ctermfg=7
+hi SpecialKey guibg=NONE guifg=#c2bcb2 ctermbg=NONE ctermfg=7
+hi Statement guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi StorageClass guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi Identifier guibg=NONE guifg=#8f764f ctermbg=NONE ctermfg=2
+hi Constant guibg=NONE guifg=#8f764f ctermbg=NONE ctermfg=2
+hi Comment guibg=NONE guifg=#918686 ctermbg=NONE ctermfg=8
+hi Todo guibg=NONE guifg=#918686 ctermbg=NONE ctermfg=8
+hi SpecialComment guibg=NONE guifg=#918686 ctermbg=NONE ctermfg=8
+hi Number guibg=NONE guifg=#8a4033 ctermbg=NONE ctermfg=1
+hi String guibg=NONE guifg=#8a4033 ctermbg=NONE ctermfg=1
+hi Character guibg=NONE guifg=#8a4033 ctermbg=NONE ctermfg=1
+hi Structure guibg=NONE guifg=#8a4033 ctermbg=NONE ctermfg=1
+hi Underlined guibg=NONE guifg=#c2bcb2 ctermbg=NONE ctermfg=7
+hi Function guibg=NONE guifg=#85695d ctermbg=NONE ctermfg=3
+hi ErrorMsg guibg=#8a4033 guifg=#c2bcb2 ctermbg=1 ctermfg=7
+hi Error guibg=#8a4033 guifg=#c2bcb2 ctermbg=1 ctermfg=7
+hi WarningMsg guibg=#8a4033 guifg=#c2bcb2 ctermbg=1 ctermfg=7
+hi SpellBad guibg=#8a4033 guifg=#c2bcb2 ctermbg=1 ctermfg=7
+hi SpellRare guibg=#85444c guifg=#c2bcb2 ctermbg=5 ctermfg=7
+hi SpellCap guibg=#918686 guifg=#c2bcb2 ctermbg=4 ctermfg=7
+hi SpellLocal guibg=#8f5519 guifg=#c2bcb2 ctermbg=6 ctermfg=7
+hi Question guibg=NONE guifg=#8f764f ctermbg=NONE ctermfg=2
+hi MoreMsg guibg=NONE guifg=#8f764f ctermbg=NONE ctermfg=2
+hi Directory guibg=NONE guifg=#8a4033 ctermbg=NONE ctermfg=1
+hi Operator guibg=NONE guifg=#c2bcb2 ctermbg=NONE ctermfg=7
+hi javascriptBraces guibg=NONE guifg=#c2bcb2 ctermbg=NONE ctermfg=7
+hi javascriptFunction guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi javascriptValue guibg=NONE guifg=#8a4033 ctermbg=NONE ctermfg=1
+hi typescriptBraces guibg=NONE guifg=#c2bcb2 ctermbg=NONE ctermfg=7
+hi typescriptVariable guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi typescriptIdentifier guibg=NONE guifg=#8f764f ctermbg=NONE ctermfg=2
+hi typescriptConsoleMethod guibg=NONE guifg=#c2bcb2 ctermbg=NONE ctermfg=7
+hi typescriptGlobal guibg=NONE guifg=#8f764f ctermbg=NONE ctermfg=2
+hi htmlArg guibg=NONE guifg=#8f764f ctermbg=NONE ctermfg=2
+hi htmlTag guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi htmlEndTag guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi phpVarSelector guibg=NONE guifg=#8f764f ctermbg=NONE ctermfg=2
+hi cssBraces guibg=NONE guifg=#c2bcb2 ctermbg=NONE ctermfg=7
+hi cssProp guibg=NONE guifg=#8f764f ctermbg=NONE ctermfg=2
+hi cssAtRule guibg=NONE guifg=#85695d ctermbg=NONE ctermfg=3
+hi cssAttrComma guibg=NONE guifg=#c2bcb2 ctermbg=NONE ctermfg=7
+hi cssClassName guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi cssClassNameDot guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi cssTagName guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi cssCustomProp guibg=NONE guifg=#8f764f ctermbg=NONE ctermfg=2
+hi cssColor guibg=NONE guifg=#8a4033 ctermbg=NONE ctermfg=1
+hi luaFunction guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi luaTable guibg=NONE guifg=#c2bcb2 ctermbg=NONE ctermfg=7
+hi shFunctionKey guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi shDerefSimple guibg=NONE guifg=#8a4033 ctermbg=NONE ctermfg=1
+hi shOption guibg=NONE guifg=#c2bcb2 ctermbg=NONE ctermfg=7
+hi shTestOpr guibg=NONE guifg=#c2bcb2 ctermbg=NONE ctermfg=7
+hi shArithmetic guibg=NONE guifg=#8a4033 ctermbg=NONE ctermfg=1
+hi zshVariable guibg=NONE guifg=#8f764f ctermbg=NONE ctermfg=2
+hi rubyDefine guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi rubyPseudoVariable guibg=NONE guifg=#8f764f ctermbg=NONE ctermfg=2
+hi rubySymbol guibg=NONE guifg=#8a4033 ctermbg=NONE ctermfg=1
+hi vimNotation guibg=NONE guifg=#8a4033 ctermbg=NONE ctermfg=1
+hi markdownH1 guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi markdownH1Delimiter guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi markdownH2 guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi markdownH2Delimiter guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi markdownH3 guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi markdownH3Delimiter guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi markdownH4 guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi markdownH4Delimiter guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi markdownH5 guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi markdownH5Delimiter guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi markdownH6 guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi markdownH6Delimiter guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi rustDerive guibg=NONE guifg=#c2bcb2 ctermbg=NONE ctermfg=7
+hi rustIdentifier guibg=NONE guifg=#8a4033 ctermbg=NONE ctermfg=1
+hi rustAttribute guibg=NONE guifg=#85695d ctermbg=NONE ctermfg=3
+hi javaTypeDef guibg=NONE guifg=#8f764f ctermbg=NONE ctermfg=2
+hi CocErrorSign guibg=NONE guifg=#8a4033 ctermbg=NONE ctermfg=1
+hi CocHintSign guibg=NONE guifg=#918686 ctermbg=NONE ctermfg=4
+hi CocSearch guibg=NONE guifg=#8a4033 ctermbg=NONE ctermfg=1
+hi CocMenuSel guibg=#402722 guifg=#c2bcb2 ctermbg=0 ctermfg=7
+hi DiffAdd guibg=NONE guifg=#c2bcb2 ctermbg=NONE ctermfg=7
+hi DiffChange guibg=NONE guifg=#c2bcb2 ctermbg=NONE ctermfg=7
+hi DiffDelete guibg=NONE guifg=#c2bcb2 ctermbg=NONE ctermfg=7
+hi DiffText guibg=NONE guifg=#c2bcb2 ctermbg=NONE ctermfg=7
+hi SignColumn guibg=NONE guifg=#c2bcb2 ctermbg=NONE ctermfg=7
+hi jsClassDefinition guibg=NONE guifg=#8a4033 ctermbg=NONE ctermfg=1
+hi jsThis guibg=NONE guifg=#8f764f ctermbg=NONE ctermfg=2
+hi jsxTagName guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi jsxOpenPunct guibg=NONE guifg=#c2bcb2 ctermbg=NONE ctermfg=7
+hi jsxClosePunct guibg=NONE guifg=#c2bcb2 ctermbg=NONE ctermfg=7
+hi jsxCloseString guibg=NONE guifg=#c2bcb2 ctermbg=NONE ctermfg=7
+hi jsxAttribKeyword guibg=NONE guifg=#8f764f ctermbg=NONE ctermfg=2
+hi jsFunction guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
+hi jsExport guibg=NONE guifg=#8f5519 ctermbg=NONE ctermfg=6
