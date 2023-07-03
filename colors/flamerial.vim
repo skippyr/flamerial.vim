@@ -18,7 +18,7 @@ hi Identifier gui=NONE guibg=NONE guifg=#8f764f cterm=NONE ctermbg=NONE ctermfg=
 hi LineNr gui=NONE guibg=NONE guifg=#85695d cterm=NONE ctermbg=NONE ctermfg=3
 hi MatchParen gui=NONE guibg=#261815 guifg=#c2bcb2 cterm=NONE ctermbg=0 ctermfg=7
 hi MoreMsg gui=NONE guibg=NONE guifg=#8f764f cterm=NONE ctermbg=NONE ctermfg=2
-hi NonText gui=NONE guibg=NONE guifg=#261815 cterm=NONE ctermbg=NONE ctermfg=7
+hi NonText gui=NONE guibg=NONE guifg=#402722 cterm=NONE ctermbg=NONE ctermfg=7
 hi Normal gui=NONE guibg=#0d0807 guifg=#c2bcb2 cterm=NONE ctermbg=0 ctermfg=7
 hi Number gui=NONE guibg=NONE guifg=#8a4033 cterm=NONE ctermbg=NONE ctermfg=1
 hi Operator gui=NONE guibg=NONE guifg=#c2bcb2 cterm=NONE ctermbg=NONE ctermfg=7
@@ -32,7 +32,7 @@ hi Search gui=NONE guibg=#8a4033 guifg=#c2bcb2 cterm=NONE ctermbg=1 ctermfg=7
 hi SpecialComment gui=NONE guibg=NONE guifg=#918686 cterm=NONE ctermbg=NONE ctermfg=8
 hi SpecialKey gui=NONE guibg=NONE guifg=#c2bcb2 cterm=NONE ctermbg=NONE ctermfg=7
 hi SpellBad gui=NONE guibg=#8a4033 guifg=#c2bcb2 cterm=NONE ctermbg=1 ctermfg=7
-hi SpellCap gui=NONE guibg=#918686 guifg=#c2bcb2 cterm=NONE ctermbg=4 ctermfg=7
+hi SpellCap gui=NONE guibg=#918686 guifg=#0d0807 cterm=NONE ctermbg=4 ctermfg=0
 hi SpellLocal gui=NONE guibg=#8f5519 guifg=#c2bcb2 cterm=NONE ctermbg=6 ctermfg=7
 hi SpellRare gui=NONE guibg=#85444c guifg=#c2bcb2 cterm=NONE ctermbg=5 ctermfg=7
 hi Statement gui=NONE guibg=NONE guifg=#8f5519 cterm=NONE ctermbg=NONE ctermfg=6

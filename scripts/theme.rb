@@ -7,7 +7,7 @@ end
 highlights = [
   # UI Highlights
   hi("Character", :red_fg),
-  hi("ColorColumn", :black_variant_1_bg),
+  hi("ColorColumn", :black_variant_0_bg),
   hi("Comment", :light_black_fg),
   hi("Constant", :green_fg),
   hi("Delimiter", :white_fg),
@@ -22,15 +22,15 @@ highlights = [
   hi("Function", :yellow_fg),
   hi("Identifier", :green_fg),
   hi("LineNr", :yellow_fg),
-  hi("MatchParen", :black_variant_1_bg),
+  hi("MatchParen", :black_variant_0_bg),
   hi("MoreMsg", :green_fg),
-  hi("NonText", :black_variant_1_fg),
+  hi("NonText", :black_variant_0_fg),
   hi("Normal", :black_bg),
   hi("Number", :red_fg),
   hi("Operator", :white_fg),
-  hi("Pmenu", :black_variant_1_bg),
+  hi("Pmenu", :black_variant_0_bg),
   hi("PmenuSbar", :black_bg),
-  hi("PmenuSel", :black_variant_2_bg),
+  hi("PmenuSel", :black_variant_1_bg),
   hi("PmenuThumb", :white_bg),
   hi("PreProc", :magenta_fg),
   hi("Question", :green_fg),
@@ -130,7 +130,7 @@ highlights = [
   # CocNvim Plugin Highlights Fixes
   hi("CocErrorSign", :red_fg),
   hi("CocHintSign", :blue_fg),
-  hi("CocMenuSel", :black_variant_2_bg),
+  hi("CocMenuSel", :black_variant_1_bg),
   hi("CocSearch", :red_fg),
 
   # Vim Signify Plugin Highlight Fixes
