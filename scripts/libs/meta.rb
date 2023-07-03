@@ -10,8 +10,8 @@ class Highlight
     "hi #{name} gui=NONE guibg=#{@hex_bg} guifg=#{@hex_fg} cterm=NONE ctermbg=#{@ansi_bg} ctermfg=#{@ansi_fg}"
   end
 
-  def as_array_var(var)
-    "let s:#{var} = [\"#{@hex_fg}\", \"#{@hex_bg}\", \"#{@ansi_fg}\", \"#{@ansi_bg}\"]"
+  def as_array()
+    "['#{@hex_fg}', '#{@hex_bg}', #{@ansi_fg}, #{@ansi_bg}]"
   end
 end
 
@@ -20,6 +20,7 @@ colors = {
   black:           '#0d0807',
   black_variant_1: '#261815',
   black_variant_2: '#402722',
+  black_variant_3: '#593730',
   red:             '#8a4033',
   green:           '#8f764f',
   yellow:          '#85695d',
@@ -45,8 +46,9 @@ $flamerial = {
   black_bg:           Highlight.new(colors[:black], colors[:white], 0, 7),
   black_variant_1_bg: Highlight.new(colors[:black_variant_1], colors[:white], 0, 7),
   black_variant_2_bg: Highlight.new(colors[:black_variant_2], colors[:white], 0, 7),
+  black_variant_3_bg: Highlight.new(colors[:black_variant_3], colors[:white], 0, 7),
   red_bg:             Highlight.new(colors[:red], colors[:white], 1, 7),
-  blue_bg:            Highlight.new(colors[:blue], colors[:white], 4, 7),
+  blue_bg:            Highlight.new(colors[:blue], colors[:black], 4, 0),
   magenta_bg:         Highlight.new(colors[:magenta], colors[:white], 5, 7),
   cyan_bg:            Highlight.new(colors[:cyan], colors[:white], 6, 7),
   white_bg:           Highlight.new(colors[:white], colors[:black], 7, 0),
