@@ -13,6 +13,7 @@ hi DiagnosticWarn gui=NONE guibg=#0d0807 guifg=#c2bcb2 cterm=NONE ctermbg=0 cter
 hi Directory gui=NONE guibg=NONE guifg=#8a4033 cterm=NONE ctermbg=NONE ctermfg=1
 hi Error gui=NONE guibg=#8a4033 guifg=#c2bcb2 cterm=NONE ctermbg=1 ctermfg=7
 hi ErrorMsg gui=NONE guibg=#8a4033 guifg=#c2bcb2 cterm=NONE ctermbg=1 ctermfg=7
+hi Special gui=NONE guibg=NONE guifg=#8a4033 cterm=NONE ctermbg=NONE ctermfg=1
 hi Function gui=NONE guibg=NONE guifg=#85695d cterm=NONE ctermbg=NONE ctermfg=3
 hi Identifier gui=NONE guibg=NONE guifg=#8f764f cterm=NONE ctermbg=NONE ctermfg=2
 hi LineNr gui=NONE guibg=NONE guifg=#85695d cterm=NONE ctermbg=NONE ctermfg=3

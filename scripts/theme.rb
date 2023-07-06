@@ -19,6 +19,7 @@ highlights = [
   hi("Directory", :red_fg),
   hi("Error", :red_bg),
   hi("ErrorMsg", :red_bg),
+  hi("Special", :red_fg),
   hi("Function", :yellow_fg),
   hi("Identifier", :green_fg),
   hi("LineNr", :yellow_fg),
