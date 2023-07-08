@@ -17,18 +17,18 @@ end
 
 NONE = 'NONE'
 colors = {
-  black:           '#0d0807',
-  black_variant_0: '#261815',
-  black_variant_1: '#402722',
-  black_variant_2: '#593730',
-  red:             '#8a4033',
-  green:           '#8f764f',
-  yellow:          '#85695d',
-  blue:            '#918686',
-  magenta:         '#85444c',
-  cyan:            '#8f5519',
-  white:           '#c2bcb2',
-  light_black:     '#918686'
+  black:           '#140f0f',
+  black_variant_0: '#332626',
+  black_variant_1: '#523d3d',
+  black_variant_2: '#705454',
+  red:             '#b32815',
+  green:           '#960c0c',
+  yellow:          '#c76e02',
+  blue:            '#a88e6e',
+  magenta:         '#899980',
+  cyan:            '#ba3e00',
+  white:           '#e8dcbc',
+  light_black:     '#a88e6e'
 }
 $flamerial = {
   # Foreground Highlights
