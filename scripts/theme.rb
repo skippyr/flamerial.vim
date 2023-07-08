@@ -4,36 +4,43 @@ def hi(name, hi)
   $flamerial[hi].as_copy(name)
 end
 
+main_highlights = {
+  value: :red_fg,
+  comment: :light_black_fg,
+  variable: :yellow_fg,
+  statement: :green_fg,
+  function: :blue_fg,
+}
+
 highlights = [
-  # UI Highlights
-  hi("Character", :red_fg),
+  hi("Character", main_highlights[:value]),
   hi("ColorColumn", :black_variant_0_bg),
-  hi("Comment", :light_black_fg),
-  hi("Constant", :green_fg),
+  hi("Comment", main_highlights[:comment]),
+  hi("Constant", main_highlights[:variable]),
   hi("Delimiter", :white_fg),
   hi("DiagnosticError", :black_bg),
   hi("DiagnosticHint", :black_bg),
   hi("DiagnosticInfo", :black_bg),
   hi("DiagnosticOk", :black_bg),
   hi("DiagnosticWarn", :black_bg),
-  hi("Directory", :red_fg),
+  hi("Directory", main_highlights[:variable]),
   hi("Error", :red_bg),
   hi("ErrorMsg", :red_bg),
-  hi("Special", :red_fg),
-  hi("Function", :yellow_fg),
-  hi("Identifier", :green_fg),
+  hi("Special", main_highlights[:variable]),
+  hi("Function", main_highlights[:function]),
+  hi("Identifier", main_highlights[:variable]),
   hi("LineNr", :yellow_fg),
   hi("MatchParen", :black_variant_0_bg),
   hi("MoreMsg", :green_fg),
   hi("NonText", :black_variant_0_fg),
   hi("Normal", :black_bg),
-  hi("Number", :red_fg),
+  hi("Number", main_highlights[:value]),
   hi("Operator", :white_fg),
   hi("Pmenu", :black_variant_0_bg),
   hi("PmenuSbar", :black_bg),
   hi("PmenuSel", :black_variant_1_bg),
   hi("PmenuThumb", :white_bg),
-  hi("PreProc", :magenta_fg),
+  hi("PreProc", main_highlights[:comment]),
   hi("Question", :green_fg),
   hi("Search", :red_bg),
   hi("SpecialComment", :light_black_fg),
@@ -42,91 +49,91 @@ highlights = [
   hi("SpellCap", :blue_bg),
   hi("SpellLocal", :cyan_bg),
   hi("SpellRare", :magenta_bg),
-  hi("Statement", :cyan_fg),
-  hi("StorageClass", :cyan_fg),
-  hi("String", :red_fg),
-  hi("Structure", :red_fg),
+  hi("Statement", main_highlights[:statement]),
+  hi("StorageClass", main_highlights[:statement]),
+  hi("String", main_highlights[:value]),
+  hi("Structure", main_highlights[:value]),
   hi("Title", :white_fg),
-  hi("Todo", :light_black_fg),
-  hi("Type", :red_fg),
+  hi("Todo", main_highlights[:comment]),
+  hi("Type", main_highlights[:value]),
   hi("Underlined", :white_fg),
   hi("Visual", :red_bg),
   hi("WarningMsg", :red_bg),
 
   # Javascript Highlight Fixes
   hi("javascriptBraces", :white_fg),
-  hi("javascriptFunction", :cyan_fg),
-  hi("javascriptValue", :red_fg),
+  hi("javascriptFunction", main_highlights[:statement]),
+  hi("javascriptValue", main_highlights[:value]),
 
   # Typescript Highlight Fixes
   hi("typescriptBraces", :white_fg),
   hi("typescriptConsoleMethod", :white_fg),
-  hi("typescriptGlobal", :green_fg),
-  hi("typescriptIdentifier", :green_fg),
-  hi("typescriptVariable", :cyan_fg),
+  hi("typescriptGlobal", main_highlights[:variable]),
+  hi("typescriptIdentifier", main_highlights[:variable]),
+  hi("typescriptVariable", main_highlights[:statement]),
 
   # HTML Highlight Fixes
-  hi("htmlArg", :green_fg),
-  hi("htmlEndTag", :cyan_fg),
-  hi("htmlTag", :cyan_fg),
+  hi("htmlArg", main_highlights[:variable]),
+  hi("htmlEndTag", main_highlights[:comment]),
+  hi("htmlTag", main_highlights[:comment]),
 
   # PHP Highlight Fixes
   hi("phpVarSelector", :green_fg),
 
   # CSS Highlight Fixes
-  hi("cssAtRule", :yellow_fg),
+  hi("cssAtRule", main_highlights[:function]),
   hi("cssAttrComma", :white_fg),
   hi("cssBraces", :white_fg),
-  hi("cssClassName", :cyan_fg),
-  hi("cssClassNameDot", :cyan_fg),
-  hi("cssColor", :red_fg),
-  hi("cssCustomProp", :green_fg),
-  hi("cssProp", :green_fg),
-  hi("cssTagName", :cyan_fg),
+  hi("cssClassName", main_highlights[:statement]),
+  hi("cssClassNameDot", main_highlights[:statement]),
+  hi("cssColor", main_highlights[:value]),
+  hi("cssCustomProp", main_highlights[:variable]),
+  hi("cssProp", main_highlights[:variable]),
+  hi("cssTagName", main_highlights[:statement]),
 
   # Lua Highlight Fixes
-  hi("luaFunction", :cyan_fg),
+  hi("luaFunction", main_highlights[:statement]),
   hi("luaTable", :white_fg),
 
   # Shell Script Highlight Fixes
-  hi("shArithmetic", :red_fg),
-  hi("shDerefSimple", :red_fg),
-  hi("shFunctionKey", :cyan_fg),
+  hi("shArithmetic", main_highlights[:value]),
+  hi("shDerefSimple", main_highlights[:value]),
+  hi("shFunctionKey", main_highlights[:statement]),
   hi("shOption", :white_fg),
   hi("shTestOpr", :white_fg),
 
   # ZSH Script Highlight Fixes
-  hi("zshVariable", :green_fg),
+  hi("zshVariable", main_highlights[:variable]),
 
   # Ruby Highlight Fixes
-  hi("rubyDefine", :cyan_fg),
-  hi("rubyPseudoVariable", :green_fg),
-  hi("rubySymbol", :red_fg),
+  hi("rubyDefine", main_highlights[:statement]),
+  hi("rubyPseudoVariable", main_highlights[:variable]),
+  hi("rubySymbol", main_highlights[:value]),
 
   # Vim Highlight Fixes
-  hi("vimNotation", :red_fg),
+  hi("vimNotation", main_highlights[:value]),
 
   # Markdown Highlight Fixes
-  hi("markdownH1", :cyan_fg),
-  hi("markdownH1Delimiter", :cyan_fg),
-  hi("markdownH2", :cyan_fg),
-  hi("markdownH2Delimiter", :cyan_fg),
-  hi("markdownH3", :cyan_fg),
-  hi("markdownH3Delimiter", :cyan_fg),
-  hi("markdownH4", :cyan_fg),
-  hi("markdownH4Delimiter", :cyan_fg),
-  hi("markdownH5", :cyan_fg),
-  hi("markdownH5Delimiter", :cyan_fg),
-  hi("markdownH6", :cyan_fg),
-  hi("markdownH6Delimiter", :cyan_fg),
+  hi("markdownH1", main_highlights[:value]),
+  hi("markdownH1Delimiter", main_highlights[:value]),
+  hi("markdownH2", main_highlights[:value]),
+  hi("markdownH2Delimiter", main_highlights[:value]),
+  hi("markdownH3", main_highlights[:value]),
+  hi("markdownH3Delimiter", main_highlights[:value]),
+  hi("markdownH4", main_highlights[:value]),
+  hi("markdownH4Delimiter", main_highlights[:value]),
+  hi("markdownH5", main_highlights[:value]),
+  hi("markdownH5Delimiter", main_highlights[:value]),
+  hi("markdownH6", main_highlights[:value]),
+  hi("markdownH6Delimiter", main_highlights[:value]),
 
   # Rust Highlight Fixes
-  hi("rustAttribute", :yellow_fg),
+  hi("rustAttribute", main_highlights[:function]),
   hi("rustDerive", :white_fg),
-  hi("rustIdentifier", :red_fg),
+  hi("rustIdentifier", main_highlights[:value]),
 
   # Java Highlight Fixes
-  hi("javaTypeDef", :green_fg),
+  hi("javaTypeDef", main_highlights[:variable]),
 
   # CocNvim Plugin Highlights Fixes
   hi("CocErrorSign", :red_fg),
@@ -143,17 +150,17 @@ highlights = [
 
   # Vim-Polyglot Plugin Highlights Fixes
   # Javascript
-  hi("jsClassDefinition", :red_fg),
-  hi("jsThis", :green_fg),
+  hi("jsClassDefinition", main_highlights[:value]),
+  hi("jsThis", main_highlights[:variable]),
 
   # Javascript React (jsx) Highlights
-  hi("jsExport", :cyan_fg),
-  hi("jsFunction", :cyan_fg),
-  hi("jsxAttribKeyword", :green_fg),
+  hi("jsExport", main_highlights[:statement]),
+  hi("jsFunction", main_highlights[:statement]),
+  hi("jsxAttribKeyword", main_highlights[:variable]),
   hi("jsxClosePunct", :white_fg),
   hi("jsxCloseString", :white_fg),
   hi("jsxOpenPunct", :white_fg),
-  hi("jsxTagName", :cyan_fg),
+  hi("jsxTagName", main_highlights[:statement]),
 ]
 
 puts("hi clear

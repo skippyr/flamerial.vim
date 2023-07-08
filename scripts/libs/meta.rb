@@ -18,9 +18,9 @@ end
 NONE = 'NONE'
 colors = {
   black:           '#140f0f',
-  black_variant_0: '#332626',
-  black_variant_1: '#523d3d',
-  black_variant_2: '#705454',
+  black_variant_0: '#261d1d',
+  black_variant_1: '#382a2a',
+  black_variant_2: '#4a3737',
   red:             '#b32815',
   green:           '#960c0c',
   yellow:          '#c76e02',
@@ -48,6 +48,7 @@ $flamerial = {
   black_variant_1_bg: Highlight.new(colors[:black_variant_1], colors[:white], 0, 7),
   black_variant_2_bg: Highlight.new(colors[:black_variant_2], colors[:white], 0, 7),
   red_bg:             Highlight.new(colors[:red], colors[:white], 1, 7),
+  yellow_bg:          Highlight.new(colors[:yellow], colors[:black], 5, 0),
   blue_bg:            Highlight.new(colors[:blue], colors[:black], 4, 0),
   magenta_bg:         Highlight.new(colors[:magenta], colors[:white], 5, 7),
   cyan_bg:            Highlight.new(colors[:cyan], colors[:white], 6, 7),

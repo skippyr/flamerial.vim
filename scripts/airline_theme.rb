@@ -7,8 +7,8 @@ def generate_color_map(mode, a)
 end
 
 normal = $flamerial[:black_variant_2_bg].as_array()
-visual = $flamerial[:blue_bg].as_array()
-insert = $flamerial[:red_bg].as_array()
+visual = $flamerial[:red_bg].as_array()
+insert = $flamerial[:yellow_bg].as_array()
 inactive = $flamerial[:black_variant_1_bg].as_array()
 
 puts("let g:airline#themes#flamerial#palette = {}
