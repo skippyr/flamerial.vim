@@ -4,6 +4,9 @@ hi Character gui=NONE guibg=NONE guifg=#b32815 cterm=NONE ctermbg=NONE ctermfg=1
 hi ColorColumn gui=NONE guibg=#261d1d guifg=#e8dcbc cterm=NONE ctermbg=0 ctermfg=7
 hi Comment gui=NONE guibg=NONE guifg=#a88e6e cterm=NONE ctermbg=NONE ctermfg=8
 hi Constant gui=NONE guibg=NONE guifg=#c76e02 cterm=NONE ctermbg=NONE ctermfg=3
+hi CursorColumn gui=NONE guibg=#4a3737 guifg=NONE cterm=NONE ctermbg=0 ctermfg=NONE
+hi CursorLine gui=NONE guibg=#4a3737 guifg=NONE cterm=NONE ctermbg=0 ctermfg=NONE
+hi CursorLineNr gui=NONE guibg=NONE guifg=#c76e02 cterm=NONE ctermbg=NONE ctermfg=3
 hi Delimiter gui=NONE guibg=NONE guifg=#e8dcbc cterm=NONE ctermbg=NONE ctermfg=7
 hi DiagnosticError gui=NONE guibg=#140f0f guifg=#e8dcbc cterm=NONE ctermbg=0 ctermfg=7
 hi DiagnosticHint gui=NONE guibg=#140f0f guifg=#e8dcbc cterm=NONE ctermbg=0 ctermfg=7
@@ -13,7 +16,7 @@ hi DiagnosticWarn gui=NONE guibg=#140f0f guifg=#e8dcbc cterm=NONE ctermbg=0 cter
 hi Directory gui=NONE guibg=NONE guifg=#c76e02 cterm=NONE ctermbg=NONE ctermfg=3
 hi Error gui=NONE guibg=#b32815 guifg=#e8dcbc cterm=NONE ctermbg=1 ctermfg=7
 hi ErrorMsg gui=NONE guibg=#b32815 guifg=#e8dcbc cterm=NONE ctermbg=1 ctermfg=7
-hi Special gui=NONE guibg=NONE guifg=#c76e02 cterm=NONE ctermbg=NONE ctermfg=3
+hi Folded gui=NONE guibg=#261d1d guifg=#e8dcbc cterm=NONE ctermbg=0 ctermfg=7
 hi Function gui=NONE guibg=NONE guifg=#a88e6e cterm=NONE ctermbg=NONE ctermfg=4
 hi Identifier gui=NONE guibg=NONE guifg=#c76e02 cterm=NONE ctermbg=NONE ctermfg=3
 hi LineNr gui=NONE guibg=NONE guifg=#c76e02 cterm=NONE ctermbg=NONE ctermfg=3
@@ -30,6 +33,7 @@ hi PmenuThumb gui=NONE guibg=#e8dcbc guifg=#140f0f cterm=NONE ctermbg=7 ctermfg=
 hi PreProc gui=NONE guibg=NONE guifg=#a88e6e cterm=NONE ctermbg=NONE ctermfg=8
 hi Question gui=NONE guibg=NONE guifg=#960c0c cterm=NONE ctermbg=NONE ctermfg=2
 hi Search gui=NONE guibg=#b32815 guifg=#e8dcbc cterm=NONE ctermbg=1 ctermfg=7
+hi Special gui=NONE guibg=NONE guifg=#c76e02 cterm=NONE ctermbg=NONE ctermfg=3
 hi SpecialComment gui=NONE guibg=NONE guifg=#a88e6e cterm=NONE ctermbg=NONE ctermfg=8
 hi SpecialKey gui=NONE guibg=NONE guifg=#e8dcbc cterm=NONE ctermbg=NONE ctermfg=7
 hi SpellBad gui=NONE guibg=#b32815 guifg=#e8dcbc cterm=NONE ctermbg=1 ctermfg=7

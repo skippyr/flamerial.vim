@@ -43,15 +43,16 @@ $flamerial = {
   light_black_fg:     Highlight.new(NONE, colors[:light_black], NONE, 8),
 
   # Background Highlights
-  black_bg:           Highlight.new(colors[:black], colors[:white], 0, 7),
-  black_variant_0_bg: Highlight.new(colors[:black_variant_0], colors[:white], 0, 7),
-  black_variant_1_bg: Highlight.new(colors[:black_variant_1], colors[:white], 0, 7),
-  black_variant_2_bg: Highlight.new(colors[:black_variant_2], colors[:white], 0, 7),
-  red_bg:             Highlight.new(colors[:red], colors[:white], 1, 7),
-  yellow_bg:          Highlight.new(colors[:yellow], colors[:black], 5, 0),
-  blue_bg:            Highlight.new(colors[:blue], colors[:black], 4, 0),
-  magenta_bg:         Highlight.new(colors[:magenta], colors[:white], 5, 7),
-  cyan_bg:            Highlight.new(colors[:cyan], colors[:white], 6, 7),
-  white_bg:           Highlight.new(colors[:white], colors[:black], 7, 0),
+  black_bg:                      Highlight.new(colors[:black], colors[:white], 0, 7),
+  black_variant_0_bg:            Highlight.new(colors[:black_variant_0], colors[:white], 0, 7),
+  black_variant_1_bg:            Highlight.new(colors[:black_variant_1], colors[:white], 0, 7),
+  black_variant_2_bg:            Highlight.new(colors[:black_variant_2], colors[:white], 0, 7),
+  black_variant_2_bg_without_fg: Highlight.new(colors[:black_variant_2], NONE, 0, NONE),
+  red_bg:                        Highlight.new(colors[:red], colors[:white], 1, 7),
+  yellow_bg:                     Highlight.new(colors[:yellow], colors[:black], 5, 0),
+  blue_bg:                       Highlight.new(colors[:blue], colors[:black], 4, 0),
+  magenta_bg:                    Highlight.new(colors[:magenta], colors[:white], 5, 7),
+  cyan_bg:                       Highlight.new(colors[:cyan], colors[:white], 6, 7),
+  white_bg:                      Highlight.new(colors[:white], colors[:black], 7, 0),
 }
 
