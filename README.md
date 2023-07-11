@@ -1,9 +1,6 @@
-# Flamerial (Vim/Neovim)
+# Flamerial For Vim And Neovim
 
-The Flamerial (Vim/Neovim) project is the port of the Flamerial theme for Vim
-and Neovim.
-
-Here is a preview that you can check out.
+The port of the Flamerial theme for Vim and Neovim.
 
 ![](images/preview.png)
 
@@ -14,12 +11,12 @@ For more ports or details about the Flamerial theme, check out its
 
 ### Using A Plugin Manager
 
-It is recommended to install this theme using a plguin manager, as it allows
+It is recommended to install this theme using a plugin manager, as it allows
 you to easily update it in the future.
 
 In this example, there will be used the plugin `vim-plug` but if you are
 using other plugin manager, you can check out its own instructions. It probably
-will not difer much of what you will see here.
+will not differ much of what you will see here.
 
 -   When setting up your plugins, simply include this repository.
 
@@ -89,13 +86,11 @@ used in your terminal emulator theme. If not activated, colors will look
 strange unless you use a port of the Flamerial theme for your terminal
 emulator too.
 
-That option has no effect on terminal emulators that only have support for the
-3 bits color palette, normally old ones.
+That option has no effect on terminal emulators that only limited color support.
 
-## Issues And Contributions
+## Issues And Suggestions
 
-Learn how to report issues and contribute to this project by reading its
-[contributions guidelines](https://skippyr.github.io/materials/pages/contributions_guidelines.html).
+Report issues and suggestions through the [issues tab](https://github.com/skippyr/flamerial.nvim/issues).
 
 ## License
 
