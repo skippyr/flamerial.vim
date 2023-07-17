@@ -14,7 +14,7 @@ main_highlights = {
 
 highlights = [
   hi("Character", main_highlights[:value]),
-  hi("ColorColumn", :black_variant_0_bg),
+  hi("ColorColumn", :black_variant_2_bg_without_fg),
   hi("Comment", main_highlights[:comment]),
   hi("Constant", main_highlights[:variable]),
   hi("CursorColumn", :black_variant_2_bg_without_fg),

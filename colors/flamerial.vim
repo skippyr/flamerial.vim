@@ -1,11 +1,11 @@
 hi clear
 let g:airline_theme='flamerial'
 hi Character gui=NONE guibg=NONE guifg=#b32815 cterm=NONE ctermbg=NONE ctermfg=1
-hi ColorColumn gui=NONE guibg=#261d1d guifg=#e8dcbc cterm=NONE ctermbg=0 ctermfg=7
+hi ColorColumn gui=NONE guibg=#4a3737 guifg=NONE cterm=NONE ctermbg=4 ctermfg=NONE
 hi Comment gui=NONE guibg=NONE guifg=#a88e6e cterm=NONE ctermbg=NONE ctermfg=8
 hi Constant gui=NONE guibg=NONE guifg=#c76e02 cterm=NONE ctermbg=NONE ctermfg=3
-hi CursorColumn gui=NONE guibg=#4a3737 guifg=NONE cterm=NONE ctermbg=0 ctermfg=NONE
-hi CursorLine gui=NONE guibg=#4a3737 guifg=NONE cterm=NONE ctermbg=0 ctermfg=NONE
+hi CursorColumn gui=NONE guibg=#4a3737 guifg=NONE cterm=NONE ctermbg=4 ctermfg=NONE
+hi CursorLine gui=NONE guibg=#4a3737 guifg=NONE cterm=NONE ctermbg=4 ctermfg=NONE
 hi CursorLineNr gui=NONE guibg=NONE guifg=#c76e02 cterm=NONE ctermbg=NONE ctermfg=3
 hi Delimiter gui=NONE guibg=NONE guifg=#e8dcbc cterm=NONE ctermbg=NONE ctermfg=7
 hi DiagnosticError gui=NONE guibg=#140f0f guifg=#e8dcbc cterm=NONE ctermbg=0 ctermfg=7
