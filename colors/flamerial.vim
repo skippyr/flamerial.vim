@@ -76,6 +76,11 @@ hi! link diffchange signcolumn
 hi! link diffdelete signcolumn
 hi! link difftext signcolumn
 
+hi! link cocerrorsign flamerial_red_fg
+hi! link cochintsign flamerial_blue_fg
+hi! link cocmenusel flamerial_red_bg
+hi! link cocsearch flamerial_white_fg
+
 hi! link htmlendtag htmltag
 
 hi! link cstructure statement
