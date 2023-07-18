@@ -15,6 +15,7 @@ hi flamerial_magenta_fg ctermfg=5 guifg=#9e6a4f
 hi flamerial_yellow_fg ctermfg=3 guifg=#c76e02
 hi normal ctermbg=0 ctermfg=7 guibg=#140f0f guifg=#e8dcbc
 hi cursorline gui=underline guibg=NONE
+hi underlined ctermfg=1 guifg=#b32815
 
 hi! link colorcolumn flamerial_green_bg
 hi! link comment flamerial_magenta_fg
@@ -23,6 +24,7 @@ hi! link cursorcolumn colorcolumn
 hi! link cursorlinenr linenr
 hi! link delimiter flamerial_white_fg
 hi! link directory flamerial_red_fg
+hi! link folded cursorline
 hi! link function flamerial_white_fg
 hi! link identifier flamerial_cyan_fg
 hi! link linenr flamerial_red_fg
@@ -36,15 +38,31 @@ hi! link preproc flamerial_red_fg
 hi! link search visual
 hi! link specialkey flamerial_blue_fg
 hi! link statement flamerial_red_fg
+hi! link statusline flamerial_black_bg
 hi! link structure function
+hi! link tabline statusline
+hi! link tablinefill tabline
+hi! link tablinesel flamerial_red_bg
+hi! link title flamerial_white_fg
 hi! link type flamerial_yellow_fg
 hi! link visual flamerial_blue_bg
+
+hi! link markdownh1delimiter flamerial_red_fg
+hi! link markdownh2delimiter markdownh1delimiter
+hi! link markdownh3delimiter markdownh1delimiter
+hi! link markdownh4delimiter markdownh1delimiter
+hi! link markdownh5delimiter markdownh1delimiter
+hi! link markdownh6delimiter markdownh1delimiter
+hi! link markdownbolddelimiter markdownh1delimiter
+hi! link markdownlinktextdelimiter markdownh1delimiter
 
 hi! link signcolumn flamerial_white_fg
 hi! link diffadd signcolumn
 hi! link diffchange signcolumn
 hi! link diffdelete signcolumn
 hi! link difftext signcolumn
+
+hi! link htmlendtag htmltag
 
 hi! link cstructure statement
 
