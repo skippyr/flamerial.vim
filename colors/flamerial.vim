@@ -11,7 +11,7 @@ hi flamerial_red_fg ctermfg=1 guifg=#b32815
 hi flamerial_black_bg ctermbg=0 guibg=#140f0f
 hi flamerial_white_fg ctermfg=7 guifg=#e8dcbc
 hi flamerial_white_bg ctermbg=7 guibg=#e8dcbc
-hi flamerial_magenta_fg ctermfg=5 guifg=#a8791f
+hi flamerial_magenta_fg ctermfg=5 guifg=#9e6a4f
 hi flamerial_yellow_fg ctermfg=3 guifg=#c76e02
 hi normal ctermbg=0 ctermfg=7 guibg=#140f0f guifg=#e8dcbc
 hi cursorline gui=underline guibg=NONE
