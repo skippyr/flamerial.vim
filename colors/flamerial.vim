@@ -4,6 +4,7 @@ let g:airline_theme="flamerial"
 hi flamerial_blue_fg ctermfg=4 guifg=#a88e6e
 hi flamerial_blue_bg ctermbg=4 guibg=#a88e6e
 hi flamerial_cyan_fg ctermfg=6 guifg=#ba3e00
+hi flamerial_cyan_bg ctermbg=6 guibg=#ba3e00
 hi flamerial_green_bg ctermbg=2 guibg=#960c0c
 hi flamerial_green_fg ctermfg=2 guifg=#960c0c
 hi flamerial_red_bg ctermbg=1 guibg=#b32815
@@ -12,6 +13,7 @@ hi flamerial_black_bg ctermbg=0 guibg=#140f0f
 hi flamerial_white_fg ctermfg=7 guifg=#e8dcbc
 hi flamerial_white_bg ctermbg=7 guibg=#e8dcbc
 hi flamerial_magenta_fg ctermfg=5 guifg=#9e6a4f
+hi flamerial_magenta_bg ctermbg=5 guibg=#9e6a4f
 hi flamerial_yellow_fg ctermfg=3 guifg=#c76e02
 hi normal ctermbg=0 ctermfg=7 guibg=#140f0f guifg=#e8dcbc
 hi cursorline gui=underline guibg=NONE
@@ -36,6 +38,7 @@ hi! link pmenusel flamerial_red_bg
 hi! link pmenuthumb flamerial_white_bg
 hi! link preproc flamerial_red_fg
 hi! link search visual
+hi! link special flamerial_magenta_fg
 hi! link specialkey flamerial_blue_fg
 hi! link statement flamerial_red_fg
 hi! link statusline flamerial_black_bg
@@ -46,6 +49,17 @@ hi! link tablinesel flamerial_red_bg
 hi! link title flamerial_white_fg
 hi! link type flamerial_yellow_fg
 hi! link visual flamerial_blue_bg
+hi! link operator flamerial_white_fg
+hi! link storageclass identifier
+hi! link error flamerial_red_bg
+hi! link errormsg error
+hi! link moremsg flamerial_green_fg
+hi! link warningmsg flamerial_red_fg
+hi! link spellbad flamerial_red_bg
+hi! link spellrare flamerial_magenta_bg
+hi! link spellcap flamerial_blue_bg
+hi! link spelllocal flamerial_cyan_bg
+hi! link todo comment
 
 hi! link markdownh1delimiter flamerial_red_fg
 hi! link markdownh2delimiter markdownh1delimiter
@@ -70,4 +84,10 @@ hi! link javascriptbraces delimiter
 hi! link javascriptfunction statement
 
 hi! link luatable delimiter
+hi! link luafunction statement
+
+hi! link sharithmetic operator
+hi! link shtestopr operator
+
+hi! link rustcommentlinedoc comment
 
