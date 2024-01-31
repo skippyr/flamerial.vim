@@ -1,7 +1,8 @@
 <p align="center">
 	<img src="imgs/ornament.webp" alt="" />
 </p>
-<h1 align="center">≥v≥v&ensp;flamerial.vim&ensp;≥v≥v</h1>
+<h1 align="center">≥v≥v&ensp;flamerial&ensp;≥v≥v</h1>
+<p align="center">vim</p>
 <p align="center">
 	<img src="https://img.shields.io/github/license/skippyr/flamerial.vim?style=plastic&label=%E2%89%A5%20license&labelColor=%2324130e&color=%23b8150d" alt="" />
 	&nbsp;
@@ -21,43 +22,43 @@ The port of the [flamerial](https://github.com/skippyr/flamerial) theme for vim.
 
 ## ❡ Install
 
-### ¦ Manual Procedures
+### Manual Procedures
 
 If you want to install it manually, without a plugin manager, follow these steps:
 
-&emsp;**1.**&ensp;Clone this repository using git:
+- Clone this repository using git:
 
 ```sh
 git clone --depth 1 https://github.com/skippyr/flamerial.vim;
 ```
 
-&emsp;**2.**&ensp;Access its repository directory:
+- Access its repository directory:
 
 ```sh
 cd flamerial.vim;
 ```
 
-&emsp;**3.**&ensp;Copy its directories to the ~/.vim directory:
+- Copy its directories to the ~/.vim directory:
 
 ```sh
 mkdir -p ~/.vim;
 cp -r autoload colors ~/.vim;
 ```
 
-&emsp;**4.**&ensp;Apply the theme in your ~/.vimrc configuration file:
+- Apply the theme in your ~/.vimrc configuration file:
 
 ```vim
 set termguicolors
 colorscheme flamerial
 ```
 
-&emsp;**5.**&ensp;Reopen vim.
+- Reopen vim.
 
-### ¦ Procedures For Plug
+### Procedures For Plug
 
 If you want to install it using the [plug](https://github.com/junegunn/vim-plug) plugin manager, follow these steps:
 
-&emsp;**1.**&ensp;Apply the theme and plug this repository in your ~/.vimrc configuration file:
+- Apply the theme and plug this repository in your ~/.vimrc configuration file:
 
 ```vim
 set termguicolors
@@ -67,9 +68,9 @@ Plug 'skippyr/flamerial.vim'
 call plug#end()
 ```
 
-&emsp;**2.**&ensp;Reopen vim.\
-&emsp;**3.**&ensp;Run the :PlugInstall command to install the plugin.\
-&emsp;**4.**&ensp;Reopen vim.
+- Reopen vim.
+- Run the :PlugInstall command to install the plugin.
+- Reopen vim.
 
 ## ❡ Help
 
@@ -84,7 +85,3 @@ By contributing to this project, you must agree to license your work under the s
 ## ❡ License
 
 This project is licensed under the MIT License. Refer to the LICENSE file that comes in its source code for license and copyright details.
-
-&nbsp;
-
-<p align="center"><sup><strong>≥v≥v&ensp;Here Are Dragons!&ensp;≥v≥v</strong><br />Made with love by skippyr <3</sup></p>
