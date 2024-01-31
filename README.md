@@ -1,106 +1,90 @@
-# Flamerial (Vim/Neovim)
+<p align="center">
+	<img src="imgs/ornament.webp" alt="" />
+</p>
+<h1 align="center">≥v≥v&ensp;flamerial.vim&ensp;≥v≥v</h1>
+<p align="center">
+	<img src="https://img.shields.io/github/license/skippyr/flamerial.vim?style=plastic&label=%E2%89%A5%20license&labelColor=%2324130e&color=%23b8150d" alt="" />
+	&nbsp;
+	<img src="https://img.shields.io/github/v/tag/skippyr/flamerial.vim?style=plastic&label=%E2%89%A5%20tag&labelColor=%2324130e&color=%23b8150d" alt="" />
+	&nbsp;
+	<img src="https://img.shields.io/github/commit-activity/t/skippyr/flamerial.vim?style=plastic&label=%E2%89%A5%20commits&labelColor=%2324130e&color=%23b8150d" alt="" />
+	&nbsp;
+	<img src="https://img.shields.io/github/stars/skippyr/flamerial.vim?style=plastic&label=%E2%89%A5%20stars&labelColor=%2324130e&color=%23b8150d" alt="" />
+</p>
 
-## Description
+## ❡ About
 
-The port of the Flamerial theme for Vim and Neovim.
+The port of the [flamerial](https://github.com/skippyr/flamerial) theme for vim.
 
-![](images/preview.png)
+<p align="center"><img src="imgs/preview.webp" alt="" /></p>
+<p align="center"><sup><strong>Caption:</strong> a preview of the flamerial theme applied on vim. The font used is <a href="https://github.com/be5invis/Iosevka">iosevka</a> and status bar plugin is <a href="https://github.com/vim-airline/vim-airline">vim-airline</a>.</sup></p>
 
-> **Note**
->
-> The appearance of the theme may look different in your setup, as other plugins
-> or language servers can affect highlights. Use the preview as just a
-> reference.
+## ❡ Install
 
-## Installation
+### ¦ Manual Procedures
 
-### Manual Procedures
+If you want to install it manually, without a plugin manager, follow these steps:
 
-Use the following instructions to install this theme manually.
+&emsp;**1.**&ensp;Clone this repository using git:
 
--	Clone this repository.
-
-```bash
-git clone --depth 1 https://github.com/skippyr/flamerial.nvim
+```sh
+git clone --depth 1 https://github.com/skippyr/flamerial.vim;
 ```
 
-If you do not have `git` installed, you can download a ZIP file from GitHub.
+&emsp;**2.**&ensp;Access its repository directory:
 
--	Access the repository's directory using a command-line.
-
-```bash
-cd flamerial.nvim
+```sh
+cd flamerial.vim;
 ```
 
--	Copy the directories to your editor's configuration directory:
+&emsp;**3.**&ensp;Copy its directories to the ~/.vim directory:
 
-	-	If you are using Vim:
-
-	```bash
-	mkdir -p ~/.vim
-	cp -r {autoload,colors} ~/.vim
-	```
-
-	-	If you are using Neovim:
-
-	```bash
-	mkdir -p ~/.config/nvim
-	cp -r {autoload,colors} ~/.config/nvim
-	```
-
-### Procedures Using A Plugin Manager
-
-Use these instructions to install this theme using a plugin manager. In this
-example, the plugin manager [`vim-plug`](https://github.com/junegunn/vim-plug)
-will be used as reference as it works for both Vim and Neovim.
-
-If you are using other plugin manager, read its own instructions on how to
-download plugins, but it is expected that it does not handle it too much
-different.
-
--	Add this repository to your plugins.
-
-```bash
-Plug "skippyr/flamerial.nvim"
+```sh
+mkdir -p ~/.vim;
+cp -r autoload colors ~/.vim;
 ```
 
--	Reopen your editor and use the command `:PlugInstall` to download the theme.
+&emsp;**4.**&ensp;Apply the theme in your ~/.vimrc configuration file:
 
-## Usage
-
-After installed, you can apply the colorscheme using some rules in your
-editor's configuration file:
-
--	If you are using Vimscript:
-
-```bash
+```vim
 set termguicolors
 colorscheme flamerial
 ```
 
--	If you are using Lua:
+&emsp;**5.**&ensp;Reopen vim.
 
-```bash
-vim.opt.termguicolors = true
-vim.cmd("colorscheme flamerial")
+### ¦ Procedures For Plug
+
+If you want to install it using the [plug](https://github.com/junegunn/vim-plug) plugin manager, follow these steps:
+
+&emsp;**1.**&ensp;Apply the theme and plug this repository in your ~/.vimrc configuration file:
+
+```vim
+set termguicolors
+colorscheme flamerial
+call plug#begin()
+Plug 'skippyr/flamerial.vim'
+call plug#end()
 ```
 
-The `termguicolors` option will instruct the editor to use GUI colors, allowing
-the colors of the theme to apply correctly.
+&emsp;**2.**&ensp;Reopen vim.\
+&emsp;**3.**&ensp;Run the :PlugInstall command to install the plugin.\
+&emsp;**4.**&ensp;Reopen vim.
 
-If you do not use it, the colors of the theme will be the same as the one used
-in your terminal emulator. In this condition, the colors of the theme will only
-match the ones expected if you use a port of the Flamerial theme for your
-terminal emulator too. This can be an alternative if you can not access a GUI.
+## ❡ Help
 
-## Support
+If you need help about this project, open a new issue in its [issues page](https://github.com/skippyr/flamerial.vim/issues) or send me an [e-mail](mailto:skippyr.developer@gmail.com) describing what is going on.
 
-Report issues, questions and suggestion through the [issues tab](https://github.com/skippyr/flamerial.nvim/issues).
+## ❡ Contributing
 
-## Copyright
+This project is open to review and possibly accept contributions, specially fixes and suggestions. If you are interested, send your contribution to its [pull requests page](https://github.com/skippyr/flamerial.vim/pulls) or to my [e-mail](mailto:skippyr.developer@gmail.com).
 
-This software is distributed under the MIT License. A copy of the license is
-bundled with the source code.
+By contributing to this project, you must agree to license your work under the same license that the project uses.
 
-Copyright (c) 2023, Sherman Rofeman. MIT license.
+## ❡ License
 
+This project is licensed under the MIT License. Refer to the LICENSE file that comes in its source code for license and copyright details.
+
+&nbsp;
+
+<p align="center"><sup><strong>≥v≥v&ensp;Here Are Dragons!&ensp;≥v≥v</strong><br />Made with love by skippyr <3</sup></p>
