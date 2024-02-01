@@ -54,7 +54,7 @@ hi! link markdownh6delimiter markdownh1delimiter
 hi! link markdownlinktextdelimiter markdownh1delimiter
 hi! link matchparen visual
 hi! link moremsg flamerial_grnfg
-hi! link nontext flamerial_blefg
+hi! link nontext flamerial_magfg
 hi! link operator flamerial_whtfg
 hi! link pmenu flamerial_blkbg
 hi! link pmenusbar flamerial_blkbg
@@ -67,7 +67,7 @@ hi! link sharithmetic operator
 hi! link shtestopr operator
 hi! link signcolumn flamerial_whtfg
 hi! link special flamerial_redfg
-hi! link specialkey flamerial_blefg
+hi! link specialkey flamerial_magfg
 hi! link spellbad flamerial_redbg
 hi! link spellcap flamerial_blebg
 hi! link spelllocal flamerial_cynbg
