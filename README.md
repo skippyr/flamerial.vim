@@ -1,8 +1,7 @@
 <p align="center">
 	<img src="imgs/ornament.webp" alt="" />
 </p>
-<h1 align="center">≥v≥v&ensp;flamerial&ensp;≥v≥v</h1>
-<p align="center">vim</p>
+<h1 align="center">≥v≥v&ensp;flamerial.vim&ensp;≥v≥v</h1>
 <p align="center">
 	<img src="https://img.shields.io/github/license/skippyr/flamerial.vim?style=plastic&label=%E2%89%A5%20license&labelColor=%2324130e&color=%23b8150d" alt="" />
 	&nbsp;
