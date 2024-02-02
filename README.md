@@ -14,14 +14,20 @@
 
 ## ❡ About
 
-The port of the [flamerial](https://github.com/skippyr/flamerial) theme for vim.
+The port of the [flamerial](https://github.com/skippyr/flamerial) theme for vim/neovim.
 
 <p align="center"><img src="imgs/preview.webp" alt="" /></p>
 <p align="center"><sup><strong>Caption:</strong> a preview of the flamerial theme applied on vim. The font used is <a href="https://github.com/be5invis/Iosevka">iosevka</a> and status bar plugin is <a href="https://github.com/vim-airline/vim-airline">vim-airline</a>.</sup></p>
 
 ## ❡ Install
 
-### Manual Procedures
+### Dependencies
+
+The following dependencies are required to install it:
+
+- **git**: it will be used to clone this repository.
+
+### Manual Procedures (vim/neovim)
 
 If you want to install it manually, without a plugin manager, follow these steps:
 
@@ -31,45 +37,80 @@ If you want to install it manually, without a plugin manager, follow these steps
 git clone --depth 1 https://github.com/skippyr/flamerial.vim;
 ```
 
-- Access its repository directory:
+- Copy its directories to your vim/neovim configuration directory:
 
 ```sh
-cd flamerial.vim;
-```
-
-- Copy its directories to the ~/.vim directory:
-
-```sh
+# For vim
 mkdir -p ~/.vim;
-cp -r autoload colors ~/.vim;
+cp -r flamerial.vim/{autoload,colors} ~/.vim;
+
+# For neovim
+mkdir -p ~/.config/nvim;
+cp -r flamerial.vim/{autoload,colors} ~/.config/nvim;
 ```
 
-- Apply the theme in your ~/.vimrc configuration file:
+- Apply this theme in your ~/.vimrc (for vim), ~/.config/nvim/init.vim (for neovim using vimscript) or ~/.config/nvim/init.lua (for neovim using lua) configuration file:
 
 ```vim
+" For ~/.vimrc and ~/.config/nvim/init.vim
 set termguicolors
+syntax on
 colorscheme flamerial
 ```
 
-- Reopen vim.
+```lua
+-- For ~/.config/nvim/init.lua
+vim.opt.termguicolors = true
+vim.cmd("syntax on")
+vim.cmd("colorscheme flamerial")
+```
 
-### Procedures For Plug
+- Reopen vim/neovim.
+
+### Procedures For Plug (vim/neovim)
 
 If you want to install it using the [plug](https://github.com/junegunn/vim-plug) plugin manager, follow these steps:
 
-- Apply the theme and plug this repository in your ~/.vimrc configuration file:
+- Plug this repository and apply this theme in your ~/.vimrc (for vim) or ~/.config/nvim/init.vim (for neovim) configuration file:
 
 ```vim
-set termguicolors
-colorscheme flamerial
 call plug#begin()
 Plug 'skippyr/flamerial.vim'
 call plug#end()
+set termguicolors
+syntax on
+colorscheme flamerial
 ```
 
-- Reopen vim.
-- Run the :PlugInstall command to install the plugin.
-- Reopen vim.
+- Reopen vim/neovim.
+- Run the :PlugInstall command to install this theme.
+- Reopen vim/neovim.
+
+### Procedures For Packer (only neovim)
+
+If you want to install it using the [packer](https://github.com/wbthomason/packer.nvim) plugin manager, follow these steps:
+
+- Use this repository in your ~/.config/nvim/lua/plugins.lua plugins file.
+
+```lua
+return require("packer").startup(function(use)
+	use("wbthomason/packer.nvim")
+	use("skippyr/flamerial.vim")
+end)
+```
+
+- Apply the theme in your ~/.config/nvim/init.lua configuration file.
+
+```lua
+require("plugins")
+vim.opt.termguicolors = true
+vim.cmd("syntax on")
+vim.cmd("colorscheme flamerial")
+```
+
+- Reopen neovim.
+- Run the :PackerSync command to install this theme.
+- Reopen neovim.
 
 ## ❡ Help
 
