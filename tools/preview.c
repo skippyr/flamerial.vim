@@ -1,21 +1,22 @@
 #include <stdio.h>
 
-typedef struct {
+struct Dragon
+{
 	char *name;
 	int age;
-} Dragon;
+};
 
-static void writedragon(Dragon *d);
+static void writeDragon(struct Dragon *dragon);
 
-static void writedragon(Dragon *d)
+static void writeDragon(struct Dragon *dragon)
 {
-	printf("Name: %s.\n", d->name);
-	printf("Age : %d.\n", d->age);
+	printf("Name: %s.\n", dragon->name);
+	printf("Age : %d.\n", dragon->age);
 }
 
 int main(void)
 {
-	Dragon d = {"skippyr", 0b1111000};
-	writedragon(&d);
-	return 0;
+	struct Dragon dragon = {"skippyr", 0b1111000};
+	writeDragon(&dragon);
+	return (0);
 }

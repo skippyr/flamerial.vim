@@ -1,15 +1,15 @@
 <p align="center">
-  <img src="assets/ornament.webp" alt="" />
+	<img src="assets/ornament.webp" alt="" />
 </p>
 <h1 align="center">≥v≥v&ensp;flamerial.vim&ensp;≥v≥v</h1>
 <p align="center">
-  <img src="https://img.shields.io/github/license/skippyr/flamerial.vim?style=plastic&label=%E2%89%A5%20license&labelColor=%2324130e&color=%23b8150d" alt="" />
-  &nbsp;
-  <img src="https://img.shields.io/github/v/tag/skippyr/flamerial.vim?style=plastic&label=%E2%89%A5%20tag&labelColor=%2324130e&color=%23b8150d" alt="" />
-  &nbsp;
-  <img src="https://img.shields.io/github/commit-activity/t/skippyr/flamerial.vim?style=plastic&label=%E2%89%A5%20commits&labelColor=%2324130e&color=%23b8150d" alt="" />
-  &nbsp;
-  <img src="https://img.shields.io/github/stars/skippyr/flamerial.vim?style=plastic&label=%E2%89%A5%20stars&labelColor=%2324130e&color=%23b8150d" alt="" />
+	<img src="https://img.shields.io/github/license/skippyr/flamerial.vim?style=plastic&label=%E2%89%A5%20license&labelColor=%2324130e&color=%23b8150d" alt="" />
+	&nbsp;
+	<img src="https://img.shields.io/github/v/tag/skippyr/flamerial.vim?style=plastic&label=%E2%89%A5%20tag&labelColor=%2324130e&color=%23b8150d" alt="" />
+	&nbsp;
+	<img src="https://img.shields.io/github/commit-activity/t/skippyr/flamerial.vim?style=plastic&label=%E2%89%A5%20commits&labelColor=%2324130e&color=%23b8150d" alt="" />
+	&nbsp;
+	<img src="https://img.shields.io/github/stars/skippyr/flamerial.vim?style=plastic&label=%E2%89%A5%20stars&labelColor=%2324130e&color=%23b8150d" alt="" />
 </p>
 
 ## ❡ About
@@ -17,7 +17,7 @@
 The port of the [Flamerial](https://github.com/skippyr/flamerial) theme for `vim`/`neovim`.
 
 <p align="center"><img src="assets/preview.webp" alt="" /></p>
-<p align="center"><sup><strong>Caption:</strong> a preview of the Flamerial theme applied on <code>vim</code>. The font used is <a href="https://github.com/be5invis/Iosevka">Iosevka</a> and status bar plugin is <a href="https://github.com/vim-airline/vim-airline">vim-airline</a>.</sup></p>
+<p align="center"><sup><strong>Caption:</strong> a preview of the Flamerial theme applied on <code>vim</code>. The font used is <a href="https://github.com/madmalik/mononoki">Mononoki Nerd Font</a> and status bar plugin is <a href="https://github.com/vim-airline/vim-airline">vim-airline</a>.</sup></p>
 
 ## ❡ Install
 
@@ -61,8 +61,8 @@ colorscheme flamerial
 ```lua
 -- For ~/.config/nvim/init.lua
 vim.opt.termguicolors = true
-vim.cmd('syntax on')
-vim.cmd('colorscheme flamerial')
+vim.cmd("syntax on")
+vim.cmd("colorscheme flamerial")
 ```
 
 - Reopen `vim`/`neovim`.
@@ -93,19 +93,19 @@ If you want to install it using the [`packer`](https://github.com/wbthomason/pac
 - Use this repository in your `~/.config/nvim/lua/plugins.lua` plugins file.
 
 ```lua
-return require('packer').startup(function(use)
-  use('wbthomason/packer.nvim')
-  use('skippyr/flamerial.vim')
+return require("packer").startup(function(use)
+    use("wbthomason/packer.nvim")
+    use("skippyr/flamerial.vim")
 end)
 ```
 
 - Apply the theme in your `~/.config/nvim/init.lua` configuration file.
 
 ```lua
-require('plugins')
+require("plugins")
 vim.opt.termguicolors = true
-vim.cmd('syntax on')
-vim.cmd('colorscheme flamerial')
+vim.cmd("syntax on")
+vim.cmd("colorscheme flamerial")
 ```
 
 - Reopen `neovim`.
