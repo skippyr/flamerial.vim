@@ -1,15 +1,15 @@
 <p align="center">
-  <img src="assets/ornament.webp" alt="" />
+    <img src="assets/ornament.webp" alt="" />
 </p>
 <h1 align="center">≥v≥v&ensp;flamerial.vim&ensp;≥v≥v</h1>
 <p align="center">
-  <img src="https://img.shields.io/github/license/skippyr/flamerial.vim?style=plastic&label=%E2%89%A5%20license&labelColor=%2324130e&color=%23b8150d" alt="" />
-  &nbsp;
-  <img src="https://img.shields.io/github/v/tag/skippyr/flamerial.vim?style=plastic&label=%E2%89%A5%20tag&labelColor=%2324130e&color=%23b8150d" alt="" />
-  &nbsp;
-  <img src="https://img.shields.io/github/commit-activity/t/skippyr/flamerial.vim?style=plastic&label=%E2%89%A5%20commits&labelColor=%2324130e&color=%23b8150d" alt="" />
-  &nbsp;
-  <img src="https://img.shields.io/github/stars/skippyr/flamerial.vim?style=plastic&label=%E2%89%A5%20stars&labelColor=%2324130e&color=%23b8150d" alt="" />
+    <img src="https://img.shields.io/github/license/skippyr/flamerial.vim?style=plastic&label=%E2%89%A5%20license&labelColor=%2324130e&color=%23b8150d" alt="" />
+    &nbsp;
+    <img src="https://img.shields.io/github/v/tag/skippyr/flamerial.vim?style=plastic&label=%E2%89%A5%20tag&labelColor=%2324130e&color=%23b8150d" alt="" />
+    &nbsp;
+    <img src="https://img.shields.io/github/commit-activity/t/skippyr/flamerial.vim?style=plastic&label=%E2%89%A5%20commits&labelColor=%2324130e&color=%23b8150d" alt="" />
+    &nbsp;
+    <img src="https://img.shields.io/github/stars/skippyr/flamerial.vim?style=plastic&label=%E2%89%A5%20stars&labelColor=%2324130e&color=%23b8150d" alt="" />
 </p>
 
 ## ❡ About
@@ -127,4 +127,4 @@ By contributing to this project, you must agree to license your work under the s
 This project is licensed under the MIT License. Refer to the `LICENSE` file that comes in its source code for license and copyright details.
 
 &ensp;
-<p align="center"><sup><strong>≥v≥v&ensp;Here Are Dragons!&ensp;≥v≥</strong><br />Made with love by skippyr <3</sup></p>
+<p align="center"><sup><strong>≥v≥v&ensp;Here Be Dragons!&ensp;≥v≥</strong><br />Made with love by skippyr <3</sup></p>
