@@ -1,86 +1,85 @@
-hi clear
+set termguicolors
 let g:airline_theme='flamerial'
-hi cursorline gui=underline guibg=NONE
-hi FlamerialBlueBackground ctermbg=4 guibg=#c48d49
-hi FlamerialBlueForeground ctermfg=4 guifg=#c48d49
-hi FlamerialBlackBackground ctermbg=0 guibg=#24130e
-hi FlamerialCyanBackground ctermbg=6 guibg=#948141
-hi FlamerialCyanForeground ctermfg=6 guifg=#948141
-hi FlamerialGreenBackground ctermbg=2 guibg=#a1650b
-hi FlamerialGreenForeground ctermfg=2 guifg=#a1650b
-hi FlamerialMagentaBackground ctermbg=5 guibg=#9e4711
-hi FlamerialMagentaForeground ctermfg=5 guifg=#9e4711
-hi FlamerialRedBackground ctermbg=1 guibg=#b8150d
-hi FlamerialRedForeground ctermfg=1 guifg=#b8150d
-hi FlamerialWhiteBackground ctermbg=7 guibg=#e8cf89
-hi FlamerialWhiteForeground ctermfg=7 guifg=#e8cf89
-hi FlamerialYellowForeground ctermfg=3 guifg=#db7a00
-hi Normal ctermbg=0 ctermfg=7 guibg=#24130e guifg=#e8cf89
-hi Underlined ctermfg=1 guifg=#b8150d
-hi! link CocErrorSign FlamerialRedForeground
-hi! link CocHintSign FlamerialBlueForeground
-hi! link CocMenuSel FlamerialRedBackground
-hi! link CocSearch FlamerialWhiteForeground
-hi! link ColorColumn FlamerialGreenBackground
-hi! link Comment FlamerialBlueForeground
-hi! link Constant FlamerialMagentaForeground
-hi! link cStructure Statement
-hi! link CursorColumn ColorColumn
-hi! link CursorLineNr LineNr
-hi! link Delimiter FlamerialWhiteForeground
-hi! link DiffAdd SignColumn
-hi! link DiffChange SignColumn
-hi! link DiffDelete SignColumn
-hi! link DiffText SignColumn
-hi! link Directory FlamerialRedForeground
-hi! link Error FlamerialRedBackground
-hi! link ErrorMsg Error
-hi! link Folded CursorLine
-hi! link Function FlamerialWhiteForeground
-hi! link htmlEndTag htmlTag
-hi! link Identifier FlamerialRedForeground
-hi! link javaScriptBraces Delimiter
-hi! link javaScriptFunction Statement
-hi! link LineNr FlamerialMagentaForeground
-hi! link luaFunction Statement
-hi! link luaTable Delimiter
-hi! link markdownBoldDelimiter markdownH1Delimiter
-hi! link markdownH1Delimiter FlamerialRedForeground
-hi! link markdownH2Delimiter markdownH1Delimiter
-hi! link markdownH3Delimiter markdownH1Delimiter
-hi! link markdownH4Delimiter markdownH1Delimiter
-hi! link markdownH5Delimiter markdownH1Delimiter
-hi! link markdownH6Delimiter markdownH1Delimiter
-hi! link markdownLinkTextDelimiter markdownH1Delimiter
-hi! link MatchParen Visual
-hi! link MoreMsg FlamerialGreenForeground
-hi! link NonText FlamerialMagentaForeground
-hi! link Operator FlamerialWhiteForeground
-hi! link Pmenu FlamerialBlackBackground
-hi! link PmenuSBar FlamerialBlackBackground
-hi! link PmenuSel FlamerialRedBackground
-hi! link PmenuThumb FlamerialWhiteBackground
-hi! link PreProc FlamerialRedForeground
-hi! link rustCommentLineDoc Comment
-hi! link Search Visual
-hi! link shArithmetic Operator
-hi! link shTestOpr Operator
-hi! link SignColumn FlamerialWhiteForeground
+hi FlamerialRedForeground guifg=#991f06
+hi FlamerialGreenForeground guifg=#7d0800
+hi FlamerialYellowForeground guifg=#c76800
+hi FlamerialBlueForeground guifg=#b08548
+hi FlamerialMagentaForeground guifg=#8a3820
+hi FlamerialLightBlackForeground guifg=#695f44
+hi FlamerialCyanForeground guifg=#a83e00
+hi FlamerialWhiteForeground guifg=#e8cc7d
+hi FlamerialCursorSelectionBackground guibg=#968451
+hi FlamerialBlackBackground guibg=#030101
+hi FlamerialRedBackground guibg=#991f06
+hi FlamerialSelectionBackground guifg=#e8cc7d guibg=#571d1d
+hi FlamerialAlternateBackground0 guifg=#e8cc7d guibg=#140707
+hi FlamerialAlternateBackground1 guibg=#1f0a0a
+hi XcodeMatchingGroup guibg=#ffff00 guifg=#000000
+hi! link LineNr FlamerialBlueForeground
+hi! link LineNrAbove FlamerialLightBlackForeground
+hi! link LineNrBelow FlamerialLightBlackForeground
+hi! link NonText FlamerialLightBlackForeground
+hi! link SpecialKey FlamerialLightBlackForeground
+hi! link MatchParen XcodeMatchingGroup
+hi Normal guifg=#e8cc7d guibg=#030101
+hi! link ColorColumn FlamerialAlternateBackground1
+hi! link CursorLine FlamerialAlternateBackground1
+hi! link CursorColumn FlamerialAlternateBackground1
+hi CursorLineNr guifg=#b08548 guibg=#1f0a0a cterm=NONE
+hi! link Comment FlamerialLightBlackForeground
+hi! link Type FlamerialGreenForeground
+hi! link Number FlamerialYellowForeground
+hi! link String FlamerialRedForeground
 hi! link Special FlamerialRedForeground
-hi! link SpecialKey FlamerialMagentaForeground
-hi! link SpellBad FlamerialRedBackground
-hi! link SpellCap FlamerialBlueBackground
-hi! link SpellLocal FlamerialCyanBackground
-hi! link SpellRare FlamerialMagentaBackground
-hi! link Statement FlamerialRedForeground
-hi! link StatusLine FlamerialBlackBackground
-hi! link StorageClass Identifier
-hi! link Structure Function
-hi! link TabLine StatusLine
-hi! link TabLineFill TabLine
-hi! link TabLineSel FlamerialRedBackground
-hi! link Title FlamerialWhiteForeground
-hi! link Todo Comment
-hi! link Type FlamerialYellowForeground
-hi! link Visual FlamerialBlueBackground
+hi! link PreProc FlamerialMagentaForeground
+hi! link Title FlamerialMagentaForeground
+hi! link Identifier FlamerialCyanForeground
+hi! link Statement FlamerialGreenForeground
+hi! link Visual FlamerialCursorSelectionBackground
+hi ErrorMsg guifg=#e8cc7d guibg=#991f06
+hi Error guifg=#e8cc7d guibg=#991f06
+hi! link htmlTag FlamerialWhiteForeground
+hi! link htmlEndTag FlamerialWhiteForeground
+hi! link htmlArg FlamerialYellowForeground
+hi! link htmlTitle FlamerialWhiteForeground
+hi SpellBad guifg=#e8cc7d guibg=#991f06
+hi SpellCap guifg=#030101 guibg=#b08548
+hi SpellRare guifg=#e8cc7d guibg=#8a3820
+hi SpellLocal guifg=#e8cc7d guibg=#a83e00
+hi Pmenu guifg=#e8cc7d guibg=#140707
+hi! link PmenuSel FlamerialSelectionBackground
 hi! link WarningMsg FlamerialRedForeground
+hi! link Question FlamerialYellowForeground
+hi! link MoreMsg FlamerialYellowForeground
+hi! link csClassType FlamerialWhiteForeground
+hi! link javaScriptBraces FlamerialWhiteForeground
+hi! link typeScriptBraces FlamerialWhiteForeground
+hi! link typeScriptFuncName FlamerialWhiteForeground
+hi! link Function FlamerialGreenForeground
+hi! link javaScriptIdentifier Type
+hi! link Constant FlamerialGreenForeground
+hi! link Operator FlamerialWhiteForeground
+hi! link rustFuncName FlamerialWhiteForeground
+hi! link rustFuncCall FlamerialWhiteForeground
+hi! link TabLineSel FlamerialSelectionBackground
+hi! link TabLine FlamerialAlternateBackground0
+hi! link TabLineFill FlamerialAlternateBackground0
+hi! link Folded FlamerialAlternateBackground0
+hi! link SignColumn FlamerialAlternateBackground0
+hi DiffAdd guifg=#7d0800 guibg=#140707
+hi DiffChange guifg=#a83e00 guibg=#140707
+hi DiffDelete guifg=#695f44 guibg=#140707
+hi DiffText guibg=#7d0800 guifg=#140707
+hi Underlined guifg=#a83e00
+hi! link SpecialKey FlamerialLightBlackForeground
+hi! link Directory FlamerialRedForeground
+hi! link CocSearch FlamerialRedForeground
+hi! link CocHintSign FlamerialCyanForeground
+hi! link CocInfoSign FlamerialYellowForeground
+hi! link CocWarningSign FlamerialYellowForeground
+hi! link CocErrorSign FlamerialRedForeground
+hi! link CocMarkdownLink FlamerialCyanForeground
+hi! link Todo FlamerialCyanForeground
+hi CocUnderline cterm=underline guisp=#e8cc7d
+hi! link PmenuThumb FlamerialRedBackground
+hi! link PmenuSbar FlamerialBlackBackground
